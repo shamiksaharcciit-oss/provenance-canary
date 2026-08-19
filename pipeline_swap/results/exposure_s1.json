@@ -1,0 +1,596 @@
+{
+  "_note": "read-only over v1.9 and v1.11 persisted replies; nothing under v1*/ was modified. Counts and quotes only; no conclusion is drawn.",
+  "absence_marker_screen": [
+    "does not contain",
+    "does not include",
+    "does not mention",
+    "does not specify",
+    "does not detail",
+    "does not provide",
+    "not contain",
+    "no information",
+    "not mentioned",
+    "not present",
+    "not specified",
+    "not provided",
+    "cannot",
+    "unable to",
+    "does not appear",
+    "is not",
+    "are not",
+    "only discusses",
+    "only states",
+    "only contains",
+    "instead",
+    "not the",
+    "no mention",
+    "nothing in the",
+    "not available",
+    "does not"
+  ],
+  "haiku_arms": [
+    "v1.11 stage `eb` \u2014 the PH-1/PH-2 arms, claude-haiku-4-5-20251001"
+  ],
+  "v111_per_arm": {
+    "ea|f768": {
+      "n": 352
+    },
+    "ea|u768": {
+      "n": 346
+    },
+    "eb|f768": {
+      "n": 176,
+      "S1": 5,
+      "S1_leads_with_sentinel": 5
+    },
+    "eb|u768": {
+      "n": 176,
+      "S1": 18,
+      "S1_leads_with_sentinel": 17,
+      "S1_no_absence_marker": 5
+    },
+    "ec-v1|f768": {
+      "n": 176
+    },
+    "ec-v1|u768": {
+      "n": 176,
+      "S1": 3,
+      "S1_leads_with_sentinel": 1
+    },
+    "ec-v2|f768": {
+      "n": 176,
+      "S1": 1
+    },
+    "ec-v2|u768": {
+      "n": 176,
+      "S1": 6,
+      "S1_leads_with_sentinel": 2
+    },
+    "ee|c768": {
+      "n": 176,
+      "S1": 1,
+      "S1_no_absence_marker": 1,
+      "S1_leads_with_sentinel": 1
+    },
+    "ee|u768": {
+      "n": 176
+    }
+  },
+  "v19_per_arm": {
+    "control-A|F768": {
+      "n": 60
+    },
+    "control-B|F768": {
+      "n": 60
+    },
+    "main_A|F768": {
+      "n": 176,
+      "S1": 1,
+      "S1_no_absence_marker": 1,
+      "S1_leads_with_sentinel": 1
+    },
+    "main_A|U256": {
+      "n": 176,
+      "S1": 1,
+      "S1_leads_with_sentinel": 1
+    },
+    "main_A|U768": {
+      "n": 176,
+      "S1": 1,
+      "S1_leads_with_sentinel": 1
+    },
+    "main_B|F768": {
+      "n": 150
+    },
+    "main_B|U256": {
+      "n": 150
+    },
+    "main_B|U768": {
+      "n": 150
+    },
+    "pr3|F768": {
+      "n": 528,
+      "S1": 1,
+      "S1_no_absence_marker": 1,
+      "S1_leads_with_sentinel": 1
+    },
+    "pr3|U768": {
+      "n": 528,
+      "S1": 1,
+      "S1_leads_with_sentinel": 1
+    }
+  },
+  "s1_total": 39,
+  "s1_leading_sentinel": 31,
+  "s1_without_absence_marker": 8,
+  "s1_hits": [
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q061-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The provided context does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational aspects and capabilities of the Basalt resolver (such as its file format, query performance, license, and algorithm), but does not discuss configuration defaults.",
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational aspects and capabilities of the Basalt resolver (such as its file format, query performance, license, and algorithm), but does not discuss configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "f768",
+      "slot": "frozen",
+      "id": "v111-eb-f768-q049-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The provided context does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational processes and components that interact with the Falcon sharder, but does not specify its configuration defaults.",
+      "text": "NOT FOUND\n\nThe provided context does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational processes and components that interact with the Falcon sharder, but does not specify its configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q145-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not contain information about key configuration defaults of the Solstice cache. The context describes various operational and deployment aspects of the Solstice cache system, but does not provide details about its configuration defaults.",
+      "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Solstice cache. The context describes various operational and deployment aspects of the Solstice cache system, but does not provide details about its configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q118-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not provide a summary of key configuration defaults. While it mentions that \"The Mica gateway listens for gRPC traffic on port 7000 by default,\" this is only a single default setting and does not constitute a comprehensive summary of key configuration defaults.",
+      "text": "NOT FOUND\n\nThe context does not provide a summary of key configuration defaults. While it mentions that \"The Mica gateway listens for gRPC traffic on port 7000 by default,\" this is only a single default setting and does not constitute a comprehensive summary of key configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q108-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context states that \"The system reached general availability in release v3.5.0,\" but this refers to the system as a whole, not specifically to the Cobalt router. There is no information provided about when the Cobalt router specifically reached general availability.",
+      "text": "NOT FOUND\n\nThe context states that \"The system reached general availability in release v3.5.0,\" but this refers to the system as a whole, not specifically to the Cobalt router. There is no information provided about when the Cobalt router specifically reached general availability."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q049-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context provided does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational components and their functions within the system, but does not specify any configuration defaults.",
+      "text": "NOT FOUND\n\nThe context provided does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational components and their functions within the system, but does not specify any configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q017-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The provided context does not contain information about the key configuration defaults of the Aster ledger. The context describes various system components and their operational functions, but does not discuss configuration defaults.",
+      "text": "NOT FOUND\n\nThe provided context does not contain information about the key configuration defaults of the Aster ledger. The context describes various system components and their operational functions, but does not discuss configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q134-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context states \"This component is distributed under the BSD-3-Clause license.\" However, it does not explicitly specify that this refers to the Kestrel broker. Based on the context provided, I cannot definitively quote that the Kestrel broker specifically is distributed under the BSD-3-Clause license.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q063-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context provides specific operational details about various components and processes related to the Ridge indexer, but it does not contain a summary of key configuration defaults. The only default mentioned is that \"This system listens for gRPC traffic on port 8081 by default,\" but this alone does not constitute a comprehensive summary of key configuration defaults.",
+      "text": "NOT FOUND\n\nThe context provides specific operational details about various components and processes related to the Ridge indexer, but it does not contain a summary of key configuration defaults. The only default mentioned is that \"This system listens for gRPC traffic on port 8081 by default,\" but this alone does not constitute a comprehensive summary of key configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q024-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "The context states that \"this component applies a default request timeout of 350 milliseconds,\" but this refers to an unspecified component, not specifically the Vega broker.",
+      "text": "NOT FOUND\n\nThe context states that \"this component applies a default request timeout of 350 milliseconds,\" but this refers to an unspecified component, not specifically the Vega broker."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q168-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context provides specific technical details about the Ion indexer, but does not contain a summary of its key configuration defaults. The only configuration-related information provided is: \"The Ion indexer applies a default request timeout of 750 milliseconds.\"",
+      "text": "NOT FOUND\n\nThe context provides specific technical details about the Ion indexer, but does not contain a summary of its key configuration defaults. The only configuration-related information provided is: \"The Ion indexer applies a default request timeout of 750 milliseconds.\""
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q106-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "The context states that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this refers to \"the system\" in general, not specifically to the Onyx planner.",
+      "text": "NOT FOUND\n\nThe context states that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "f768",
+      "slot": "frozen",
+      "id": "v111-eb-f768-q145-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The provided context does not contain information about key configuration defaults of the Solstice cache. The context describes various operations and management tasks performed by different components that interact with the Solstice cache, but does not specify configuration defaults.",
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Solstice cache. The context describes various operations and management tasks performed by different components that interact with the Solstice cache, but does not specify configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "f768",
+      "slot": "frozen",
+      "id": "v111-eb-f768-q137-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The provided context does not contain information about key configuration defaults of the Krait router. The context only mentions that \"The Krait router listens for gRPC traffic on port 8443 by default,\" which is a single default setting, but does not provide a summary of key configuration defaults.",
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Krait router. The context only mentions that \"The Krait router listens for gRPC traffic on port 8443 by default,\" which is a single default setting, but does not provide a summary of key configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q102-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "The context states that \"The system persists its index to disk in the Parquet file format,\" but this refers to \"the system\" in general, not specifically to the Onyx planner.",
+      "text": "NOT FOUND\n\nThe context states that \"The system persists its index to disk in the Parquet file format,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q059-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "The context states that \"This component persists its index to disk in the Avro file format,\" but this refers to an unspecified component, not specifically the Halcyon cache. While the Halcyon cache is mentioned in the context, there is no explicit statement about the file format in which it persists its index to disk.",
+      "text": "NOT FOUND\n\nThe context states that \"This component persists its index to disk in the Avro file format,\" but this refers to an unspecified component, not specifically the Halcyon cache. While the Halcyon cache is mentioned in the context, there is no explicit statement about the file format in which it persists its index to disk."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q174-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context mentions that \"The Verde compactor reached general availability in release v1.7.2,\" but it does not specify that the Verde compactor uses a CLOCK-Pro cache policy. Therefore, I cannot confirm that the system described in the question matches the information provided in the context.",
+      "text": "NOT FOUND\n\nThe context mentions that \"The Verde compactor reached general availability in release v1.7.2,\" but it does not specify that the Verde compactor uses a CLOCK-Pro cache policy. Therefore, I cannot confirm that the system described in the question matches the information provided in the context."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q132-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not specify that any system has a throughput of 18000, nor does it link such a throughput specification to a particular vector-search system. While the context does state \"The system persists its index to disk in the ORC file format,\" it is unclear if this refers to the system with the throughput of 18000 you're asking about.",
+      "text": "NOT FOUND\n\nThe context does not specify that any system has a throughput of 18000, nor does it link such a throughput specification to a particular vector-search system. While the context does state \"The system persists its index to disk in the ORC file format,\" it is unclear if this refers to the system with the throughput of 18000 you're asking about."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q169-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context states that \"This system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that the Ridge broker uses this algorithm. The statement refers to \"this system\" in general, not specifically to the Ridge broker.",
+      "text": "NOT FOUND\n\nThe context states that \"This system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that the Ridge broker uses this algorithm. The statement refers to \"this system\" in general, not specifically to the Ridge broker."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q117-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not contain information about key configuration defaults of the Falcon compactor. The context describes various operational aspects and capabilities of the Falcon compactor (such as its use of the NGT algorithm, ARC replacement policy, Arrow file format, and performance metrics), but does not provide any details about configuration defaults.",
+      "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Falcon compactor. The context describes various operational aspects and capabilities of the Falcon compactor (such as its use of the NGT algorithm, ARC replacement policy, Arrow file format, and performance metrics), but does not provide any details about configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "u768",
+      "slot": "frozen",
+      "id": "v111-eb-u768-q128-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "The context states that \"The system reached general availability in release v0.9.8,\" but this refers to the system in general, not specifically to the Quartz resolver.",
+      "text": "NOT FOUND\n\nThe context states that \"The system reached general availability in release v0.9.8,\" but this refers to the system in general, not specifically to the Quartz resolver."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "f768",
+      "slot": "frozen",
+      "id": "v111-eb-f768-q061-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context provided does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational behaviors and system interactions related to the Basalt resolver, but does not specify its configuration defaults.",
+      "text": "NOT FOUND\n\nThe context provided does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational behaviors and system interactions related to the Basalt resolver, but does not specify its configuration defaults."
+    },
+    {
+      "record": "v1.11",
+      "population": "eb",
+      "arm": "f768",
+      "slot": "frozen",
+      "id": "v111-eb-f768-q132-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context mentions that \"The Quartz scheduler persists its index to disk in the ORC file format,\" but there is no information provided about a vector-search system with throughput of 18000 or any connection between such a system and a file format.",
+      "text": "NOT FOUND\n\nThe context mentions that \"The Quartz scheduler persists its index to disk in the ORC file format,\" but there is no information provided about a vector-search system with throughput of 18000 or any connection between such a system and a file format."
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v1",
+      "arm": "u768",
+      "slot": "v1",
+      "id": "v111-ec-u768-q172-v1-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context does not specify that the Aster ledger listens for gRPC traffic on a specific port. The statement about listening for gRPC traffic on port 7000 refers to \"this component,\" not explicitly the Aster ledger.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v1",
+      "arm": "u768",
+      "slot": "v1",
+      "id": "v111-ec-u768-q144-v1-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not establish that port 6565 belongs to the Cobalt ledger specifically as a \"vector-search system\" tied to that port. While the Cobalt ledger evicts hot vectors using a 2Q replacement policy, and a separate system listens on port 6565, the context does not link these two facts together.",
+      "text": "NOT FOUND\n\nThe context does not establish that port 6565 belongs to the Cobalt ledger specifically as a \"vector-search system\" tied to that port. While the Cobalt ledger evicts hot vectors using a 2Q replacement policy, and a separate system listens on port 6565, the context does not link these two facts together."
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v1",
+      "arm": "u768",
+      "slot": "v1",
+      "id": "v111-ec-u768-q166-v1-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context states \"this system is distributed under the BSD-3-Clause license,\" but this refers to the system generally, not specifically to the Quartz scheduler. The Quartz scheduler's license is not explicitly stated.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q037-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context states that \"The system uses the NGT algorithm for approximate nearest-neighbor search,\" but this is not explicitly attributed to the Vega router. The Vega router is only mentioned in relation to reaching general availability in release v5.1.4.",
+      "text": "NOT FOUND\n\nThe context states that \"The system uses the NGT algorithm for approximate nearest-neighbor search,\" but this is not explicitly attributed to the Vega router. The Vega router is only mentioned in relation to reaching general availability in release v5.1.4."
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q169-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context states that \"this system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that this refers to the Ridge broker specifically, so the answer cannot be confirmed from the given context.",
+      "text": "NOT FOUND\n\nThe context states that \"this system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that this refers to the Ridge broker specifically, so the answer cannot be confirmed from the given context."
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q038-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context states this system is distributed under the Apache-2.0 license. However, it does not specifically state the license under which the **Krait router** is distributed\u2014it only mentions that the Krait router reached general availability in release v5.1.4.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q128-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The system (not specifically the Quartz resolver) reached general availability in release **v0.9.8**. However, this statement refers to \"the system\" generally, not the Quartz resolver specifically.\n\n**NOT FOUND** \u2014 the context does not specify a release in which the Quartz resolver itself reached general availability."
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q166-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context states that **this system** is distributed under the BSD-3-Clause license, but it does not specifically state the license for the Quartz scheduler.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "u768",
+      "slot": "v2",
+      "id": "v111-ec-u768-q134-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The context does not specify a license for the Kestrel broker specifically. It only states, \"This component is distributed under the BSD-3-Clause license,\" without naming the component.\n\nNOT FOUND"
+    },
+    {
+      "record": "v1.11",
+      "population": "ec-v2",
+      "arm": "f768",
+      "slot": "v2",
+      "id": "v111-ec-f768-q106-v2-r0",
+      "v1_refusal": false,
+      "v3_refusal": false,
+      "residue_has_absence_marker": true,
+      "residue": "",
+      "text": "The system uses the **Annoy algorithm** for approximate nearest-neighbor search.\n\nNote: this fact is attributed to \"the system\" in the context, not explicitly to \"the Onyx planner.\" If the question requires the answer to be specifically about the Onyx planner, the answer would be NOT FOUND, as the context does not explicitly state that the Onyx planner uses the Annoy algorithm."
+    },
+    {
+      "record": "v1.11",
+      "population": "ee",
+      "arm": "c768",
+      "slot": "frozen",
+      "id": "v111-ee-c768-q166-frozen-r0",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "(The context states \"this system is distributed under the BSD-3-Clause license,\" but the \"system\" referenced in that statement is the vector-search system described in the documentation chunk\u2014not explicitly stated to be the Quartz scheduler itself.)",
+      "text": "NOT FOUND\n\n(The context states \"this system is distributed under the BSD-3-Clause license,\" but the \"system\" referenced in that statement is the vector-search system described in the documentation chunk\u2014not explicitly stated to be the Quartz scheduler itself.)"
+    },
+    {
+      "record": "v1.9",
+      "population": "main_A",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "A-042-ridge-broker::mh",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context states that \"the Ridge broker reached general availability in release v5.1.4,\" but the NGT algorithm statement is not attributed to a system associated with version v5.1.4 \u2014 it is stated independently (\"This system uses the NGT algorithm for approximate nearest-neighbor search\"), with no explicit link between the two.",
+      "text": "NOT FOUND\n\nThe context states that \"the Ridge broker reached general availability in release v5.1.4,\" but the NGT algorithm statement is not attributed to a system associated with version v5.1.4 \u2014 it is stated independently (\"This system uses the NGT algorithm for approximate nearest-neighbor search\"), with no explicit link between the two."
+    },
+    {
+      "record": "v1.9",
+      "population": "main_A",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "A-042-ridge-broker::mh",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "The context does not associate version v5.1.4 with a vector-search system's algorithm \u2014 v5.1.4 is mentioned as the release version for the Ridge broker, not the NGT algorithm system.",
+      "text": "NOT FOUND\n\nThe context does not associate version v5.1.4 with a vector-search system's algorithm \u2014 v5.1.4 is mentioned as the release version for the Ridge broker, not the NGT algorithm system."
+    },
+    {
+      "record": "v1.9",
+      "population": "main_A",
+      "arm": "F768",
+      "slot": "answer",
+      "id": "A-005-onyx-planner::f5",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")",
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    },
+    {
+      "record": "v1.9",
+      "population": "pr3",
+      "arm": "F768",
+      "slot": "rep1",
+      "id": "A-005-onyx-planner::f5",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": false,
+      "residue": "(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")",
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    },
+    {
+      "record": "v1.9",
+      "population": "pr3",
+      "arm": "U768",
+      "slot": "rep1",
+      "id": "A-044-aster-ledger::f5",
+      "v1_refusal": false,
+      "v3_refusal": true,
+      "residue_has_absence_marker": true,
+      "residue": "(The context states \"This component listens for gRPC traffic on port 7000 by default,\" but does not specifically attribute this to the Aster ledger.)",
+      "text": "NOT FOUND\n\n(The context states \"This component listens for gRPC traffic on port 7000 by default,\" but does not specifically attribute this to the Aster ledger.)"
+    }
+  ]
+}

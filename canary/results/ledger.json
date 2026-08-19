@@ -1,0 +1,35 @@
+{
+  "experiment": "canary-prototype",
+  "ceiling": 400,
+  "frozen_projection": null,
+  "entries": [
+    {
+      "stage": "cycle1_baseline",
+      "calls": 90,
+      "input_tokens": 165353,
+      "output_tokens": 3639,
+      "batch_id": null,
+      "note": "canary cycle on claude-sonnet-5",
+      "utc": "2026-08-03T18:56:15Z"
+    },
+    {
+      "stage": "cycle2_stability",
+      "calls": 90,
+      "input_tokens": 165353,
+      "output_tokens": 3690,
+      "batch_id": null,
+      "note": "canary cycle on claude-sonnet-5",
+      "utc": "2026-08-03T19:00:24Z"
+    },
+    {
+      "stage": "cycle3_model_swap",
+      "calls": 90,
+      "input_tokens": 98957,
+      "output_tokens": 4431,
+      "batch_id": null,
+      "note": "canary cycle on claude-haiku-4-5-20251001",
+      "utc": "2026-08-03T19:02:20Z"
+    }
+  ],
+  "_note": "append-only; actuals from API usage. Ceiling is the canary's 400, not v1.8's 25,000."
+}

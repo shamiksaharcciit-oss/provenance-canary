@@ -1,0 +1,136 @@
+{
+  "_note": "cases decided BY THE RULE rather than on their own merits (A-026), and cases decided AND SEMANTICALLY VERIFIED against their text (the eight), logged so a future reader finds them without re-deriving",
+  "cases": [
+    {
+      "case": "A-026-krait-router::syn",
+      "slot": "answer_bearing",
+      "why_boundary": "sentinel followed by a quoted default value from the context",
+      "ruled": "REFUSAL by rule (classifier v3): the sentinel leads, so following prose does not change the class",
+      "ruling": "5 August 2026 shortlist review",
+      "v3_refusal": true,
+      "residue": "The context does not contain information about key configuration defaults of the Krait router. The only specific default mentioned is that \"The Krait router listens for gRPC traffic on port 8443 by default.\"",
+      "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Krait router. The only specific default mentioned is that \"The Krait router listens for gRPC traffic on port 8443 by default.\""
+    },
+    {
+      "case": "A-026-krait-router::syn",
+      "slot": "same_doc",
+      "why_boundary": "sentinel followed by a quoted default value from the context",
+      "ruled": "REFUSAL by rule (classifier v3): the sentinel leads, so following prose does not change the class",
+      "ruling": "5 August 2026 shortlist review",
+      "v3_refusal": true,
+      "residue": "The context does not contain information about the key configuration defaults of the Krait router. The context only states that \"The Krait router is distributed under the Apache-2.0 license\" and then describes various system components and their functions, but does not detail any configuration defaults.",
+      "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Krait router. The context only states that \"The Krait router is distributed under the Apache-2.0 license\" and then describes various system components and their functions, but does not detail any configuration defaults."
+    },
+    {
+      "case": "A-026-krait-router::syn",
+      "slot": "cross_doc",
+      "why_boundary": "sentinel followed by a quoted default value from the context",
+      "ruled": "REFUSAL by rule (classifier v3): the sentinel leads, so following prose does not change the class",
+      "ruling": "5 August 2026 shortlist review",
+      "v3_refusal": true,
+      "residue": "The context provided discusses the Crag broker, not the Krait router. Therefore, I cannot answer the question about the Krait router's key configuration defaults based on the given context.",
+      "text": "NOT FOUND\n\nThe context provided discusses the Crag broker, not the Krait router. Therefore, I cannot answer the question about the Krait router's key configuration defaults based on the given context."
+    },
+    {
+      "case": "eb|u768|v111-eb-u768-q024-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "The context states that \"this component applies a default request timeout of 350 milliseconds,\" but this refers to an unspecified component, not specifically the Vega broker.",
+      "text": "NOT FOUND\n\nThe context states that \"this component applies a default request timeout of 350 milliseconds,\" but this refers to an unspecified component, not specifically the Vega broker."
+    },
+    {
+      "case": "eb|u768|v111-eb-u768-q106-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "The context states that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this refers to \"the system\" in general, not specifically to the Onyx planner.",
+      "text": "NOT FOUND\n\nThe context states that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "case": "eb|u768|v111-eb-u768-q102-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "The context states that \"The system persists its index to disk in the Parquet file format,\" but this refers to \"the system\" in general, not specifically to the Onyx planner.",
+      "text": "NOT FOUND\n\nThe context states that \"The system persists its index to disk in the Parquet file format,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "case": "eb|u768|v111-eb-u768-q059-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "The context states that \"This component persists its index to disk in the Avro file format,\" but this refers to an unspecified component, not specifically the Halcyon cache. While the Halcyon cache is mentioned in the context, there is no explicit statement about the file format in which it persists its index to disk.",
+      "text": "NOT FOUND\n\nThe context states that \"This component persists its index to disk in the Avro file format,\" but this refers to an unspecified component, not specifically the Halcyon cache. While the Halcyon cache is mentioned in the context, there is no explicit statement about the file format in which it persists its index to disk."
+    },
+    {
+      "case": "eb|u768|v111-eb-u768-q128-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "The context states that \"The system reached general availability in release v0.9.8,\" but this refers to the system in general, not specifically to the Quartz resolver.",
+      "text": "NOT FOUND\n\nThe context states that \"The system reached general availability in release v0.9.8,\" but this refers to the system in general, not specifically to the Quartz resolver."
+    },
+    {
+      "case": "ee|c768|v111-ee-c768-q166-frozen-r0",
+      "slot": "frozen",
+      "record": "v1.11",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "(The context states \"this system is distributed under the BSD-3-Clause license,\" but the \"system\" referenced in that statement is the vector-search system described in the documentation chunk\u2014not explicitly stated to be the Quartz scheduler itself.)",
+      "text": "NOT FOUND\n\n(The context states \"this system is distributed under the BSD-3-Clause license,\" but the \"system\" referenced in that statement is the vector-search system described in the documentation chunk\u2014not explicitly stated to be the Quartz scheduler itself.)"
+    },
+    {
+      "case": "main_A|F768|A-005-onyx-planner::f5",
+      "slot": "answer",
+      "record": "v1.9",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")",
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    },
+    {
+      "case": "pr3|F768|A-005-onyx-planner::f5",
+      "slot": "rep1",
+      "record": "v1.9",
+      "why_boundary": "S1 residue carrying no absence marker from the stated screen",
+      "ruled": "REFUSAL \u2014 asserts only content quoted from the provided context, followed by a reasoned decline; nothing extra-contextual is claimed",
+      "ruling": "6 August 2026 final data ruling",
+      "status": "decided-and-verified",
+      "v3_refusal": true,
+      "residue": "(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")",
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    }
+  ],
+  "counts": {
+    "by_rule": 3,
+    "decided_and_verified": 8,
+    "total": 11
+  }
+}

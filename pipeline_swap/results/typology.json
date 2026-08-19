@@ -1,0 +1,90 @@
+{
+  "population": 521,
+  "cycles_included": [
+    "cycle1_baseline",
+    "cycle2_stability",
+    "cycle3_model_swap",
+    "cycle4_after_release",
+    "cycle5_after_retirement",
+    "cycle6_pipeline_swap"
+  ],
+  "cycles_missing": [],
+  "verdict_distribution": {
+    "ANSWER": 304,
+    "REFUSAL": 217
+  },
+  "screen_definitions": {
+    "S1": "sentinel present AND >= 20 non-sentinel chars remain",
+    "S2": "ANSWER-classified AND matches hedging lexicon ['may', 'might', 'possibly', 'perhaps', 'appears to', 'seems to', 'not certain', 'cannot confirm', 'unclear', 'unable to determine', 'does not explicitly', 'not specified', 'no explicit', 'likely']",
+    "S3": "ANSWER-classified AND < 3 chars after strip",
+    "S4": "ANSWER-classified AND text matches /\\bnot\\s+found\\b/i \u2014 the classifier's normalisation is .strip() only, so these were NOT rescued"
+  },
+  "screens": {
+    "S1": {
+      "total": 41,
+      "per_cycle": {
+        "cycle1_baseline": 0,
+        "cycle2_stability": 0,
+        "cycle3_model_swap": 41,
+        "cycle4_after_release": 0,
+        "cycle5_after_retirement": 0,
+        "cycle6_pipeline_swap": 0
+      },
+      "verdicts": {
+        "ANSWER": 41
+      }
+    },
+    "S2": {
+      "total": 1,
+      "per_cycle": {
+        "cycle1_baseline": 0,
+        "cycle2_stability": 0,
+        "cycle3_model_swap": 1,
+        "cycle4_after_release": 0,
+        "cycle5_after_retirement": 0,
+        "cycle6_pipeline_swap": 0
+      },
+      "verdicts": {
+        "ANSWER": 1
+      }
+    },
+    "S3": {
+      "total": 0,
+      "per_cycle": {
+        "cycle1_baseline": 0,
+        "cycle2_stability": 0,
+        "cycle3_model_swap": 0,
+        "cycle4_after_release": 0,
+        "cycle5_after_retirement": 0,
+        "cycle6_pipeline_swap": 0
+      },
+      "verdicts": {}
+    },
+    "S4": {
+      "total": 85,
+      "per_cycle": {
+        "cycle1_baseline": 6,
+        "cycle2_stability": 7,
+        "cycle3_model_swap": 41,
+        "cycle4_after_release": 10,
+        "cycle5_after_retirement": 10,
+        "cycle6_pipeline_swap": 11
+      },
+      "verdicts": {
+        "ANSWER": 85
+      }
+    }
+  },
+  "overlap_note": "screens may overlap; the population count is exact and each reply is counted once in it",
+  "n_in_any_screen": 85,
+  "shortlist_size": 41,
+  "supplementary_v111": {
+    "population": 4212,
+    "screens": {
+      "S4": 228,
+      "S1": 68,
+      "S2": 12,
+      "S3": 2
+    }
+  }
+}

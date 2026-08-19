@@ -1,0 +1,400 @@
+{
+  "_note": "read-only over v1.9's persisted replies. v1 is the classifier of record for every v1.9 number; nothing here re-scores v1.9 and nothing under v1*/ was modified.",
+  "per_arm": {
+    "control-A|F768|correct": {
+      "n": 30,
+      "refusal_v1": 1,
+      "refusal_v2": 1
+    },
+    "control-A|F768|mismatched": {
+      "n": 30,
+      "refusal_v1": 18,
+      "refusal_v2": 24,
+      "S4": 6,
+      "bare_flip": 6
+    },
+    "control-B|F768|correct": {
+      "n": 30,
+      "refusal_v1": 10,
+      "refusal_v2": 10
+    },
+    "control-B|F768|mismatched": {
+      "n": 30,
+      "refusal_v1": 17,
+      "refusal_v2": 24,
+      "S4": 7,
+      "bare_flip": 7
+    },
+    "main_A|F768|answer": {
+      "n": 176,
+      "refusal_v1": 1,
+      "refusal_v2": 1,
+      "S1": 1,
+      "S4": 1
+    },
+    "main_A|U256|answer": {
+      "n": 176,
+      "refusal_v1": 14,
+      "refusal_v2": 14,
+      "S1": 1,
+      "S4": 1
+    },
+    "main_A|U768|answer": {
+      "n": 176,
+      "refusal_v1": 15,
+      "refusal_v2": 17,
+      "S1": 1,
+      "S4": 3,
+      "bare_flip": 2
+    },
+    "main_B|F768|answer": {
+      "n": 150,
+      "refusal_v1": 67,
+      "refusal_v2": 71,
+      "S4": 4,
+      "bare_flip": 4
+    },
+    "main_B|U256|answer": {
+      "n": 150,
+      "refusal_v1": 60,
+      "refusal_v2": 70,
+      "S4": 11,
+      "bare_flip": 10
+    },
+    "main_B|U768|answer": {
+      "n": 150,
+      "refusal_v1": 60,
+      "refusal_v2": 69,
+      "S4": 9,
+      "bare_flip": 9
+    },
+    "pr3|F768|rep0": {
+      "n": 176,
+      "refusal_v1": 1,
+      "refusal_v2": 1
+    },
+    "pr3|F768|rep1": {
+      "n": 176,
+      "refusal_v1": 1,
+      "refusal_v2": 1,
+      "S1": 1,
+      "S4": 1
+    },
+    "pr3|F768|rep2": {
+      "n": 176,
+      "refusal_v1": 0,
+      "refusal_v2": 1,
+      "S4": 1,
+      "bare_flip": 1
+    },
+    "pr3|U768|rep0": {
+      "n": 176,
+      "refusal_v1": 13,
+      "refusal_v2": 14,
+      "S4": 1,
+      "bare_flip": 1
+    },
+    "pr3|U768|rep1": {
+      "n": 176,
+      "refusal_v1": 14,
+      "refusal_v2": 14,
+      "S1": 1,
+      "S4": 1
+    },
+    "pr3|U768|rep2": {
+      "n": 176,
+      "refusal_v1": 16,
+      "refusal_v2": 16
+    }
+  },
+  "bare_sentinel_flips": [
+    {
+      "population": "main_A",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "A-011-falcon-sharder::syn",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_A",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "A-012-ridge-indexer::f6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1906.00790::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "F768",
+      "slot": "answer",
+      "id": "1902.09666::q6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1902.09666::q6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1902.09666::q6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1910.06592::q6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1601.02403::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "F768",
+      "slot": "answer",
+      "id": "1808.10245::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1808.10245::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1808.10245::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "2002.11910::q2",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "2002.01320::q6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "F768",
+      "slot": "answer",
+      "id": "1601.02403::q5",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1904.10503::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "2004.04721::q3",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "2004.04721::q3",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1610.09225::q2",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1912.01772::q1",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1707.05236::q4",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1811.00147::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U256",
+      "slot": "answer",
+      "id": "1811.00383::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1810.08699::q2",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "F768",
+      "slot": "answer",
+      "id": "1801.02073::q1",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "main_B",
+      "arm": "U768",
+      "slot": "answer",
+      "id": "1503.00841::q2",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "pr3",
+      "arm": "U768",
+      "slot": "rep0",
+      "id": "A-008-quartz-resolver::f7",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "pr3",
+      "arm": "F768",
+      "slot": "rep2",
+      "id": "A-038-quartz-scheduler::mh",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-003-ember-scheduler::mh",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-010-marlin-collator::f6",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-020-drift-resolver::syn",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-024-ion-indexer::f4",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-037-vega-router::f4",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-A",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "A-039-zephyr-gateway::mh",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1612.08205::q3",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1806.05504::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1810.08699::q0",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1908.05828::q10",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1908.10084::q4",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "1909.03405::q2",
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "control-B",
+      "arm": "F768",
+      "slot": "mismatched",
+      "id": "2002.01320::q1",
+      "text": "NOT FOUND."
+    }
+  ],
+  "totals": {
+    "n": 2154,
+    "refusal_v1": 308,
+    "refusal_v2": 348,
+    "S1": 5,
+    "S4": 46,
+    "bare_flip": 40
+  }
+}

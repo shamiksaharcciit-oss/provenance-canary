@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "provenance-canary: deterministic runtime monitoring for retrieval pipelines"
+authors:
+  - family-names: Saha
+    given-names: Shamik
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/shamiksaharcciit-oss/provenance-canary"
+preferred-citation:
+  type: article
+  title: "When the System Changes Underneath You"
+  authors:
+    - family-names: Saha
+      given-names: Shamik
+  year: 2026
+  doi: 10.5281/zenodo.22017670

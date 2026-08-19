@@ -1,0 +1,1765 @@
+{
+  "_note": "read-only scan of frozen v1.9 / v1.11 answer populations; no number in those experiments is changed by this and nothing under v1*/ was touched",
+  "screen_definitions": {
+    "S1": "sentinel present AND >= 20 non-sentinel chars remain",
+    "S4": "classified ANSWER by v1 but the text matches the sentinel-variant pattern (word-boundary, case-insensitive)",
+    "bare_sentinel": "whole reply is the sentinel plus trailing punctuation only"
+  },
+  "by_population_arm": {
+    "v111/ea|f768": {
+      "population": 352,
+      "S4": 27,
+      "bare_sentinel": 27
+    },
+    "v111/ea|u768": {
+      "population": 346,
+      "S4": 47,
+      "bare_sentinel": 47
+    },
+    "v111/eb|f768": {
+      "population": 176,
+      "S1": 5,
+      "S4": 5
+    },
+    "v111/eb|u768": {
+      "population": 176,
+      "S1": 18,
+      "S4": 18
+    },
+    "v111/ec-v1|f768": {
+      "population": 176,
+      "S4": 1,
+      "bare_sentinel": 1
+    },
+    "v111/ec-v1|u768": {
+      "population": 176,
+      "S1": 3,
+      "S4": 8,
+      "bare_sentinel": 5
+    },
+    "v111/ec-v2|f768": {
+      "population": 176,
+      "S1": 1,
+      "S4": 1
+    },
+    "v111/ec-v2|u768": {
+      "population": 176,
+      "S1": 6,
+      "S4": 6
+    },
+    "v111/ee|c768": {
+      "population": 176,
+      "S1": 1,
+      "S4": 1
+    },
+    "v111/ee|u768": {
+      "population": 176
+    },
+    "v19/control-A|correct": {
+      "population": 30
+    },
+    "v19/control-A|mismatched": {
+      "population": 30,
+      "S4": 6,
+      "bare_sentinel": 6
+    },
+    "v19/control-B|correct": {
+      "population": 30
+    },
+    "v19/control-B|mismatched": {
+      "population": 30,
+      "S4": 7,
+      "bare_sentinel": 7
+    },
+    "v19/main_A|F768": {
+      "population": 176,
+      "S1": 1,
+      "S4": 1
+    },
+    "v19/main_A|U256": {
+      "population": 176,
+      "S1": 1,
+      "S4": 1
+    },
+    "v19/main_A|U768": {
+      "population": 176,
+      "S1": 1,
+      "S4": 3,
+      "bare_sentinel": 2
+    },
+    "v19/main_B|F768": {
+      "population": 150,
+      "S4": 4,
+      "bare_sentinel": 4
+    },
+    "v19/main_B|U256": {
+      "population": 150,
+      "S4": 11,
+      "bare_sentinel": 10
+    },
+    "v19/main_B|U768": {
+      "population": 150,
+      "S4": 9,
+      "bare_sentinel": 9
+    },
+    "v19/pr3|F768": {
+      "population": 528,
+      "S1": 1,
+      "S4": 2,
+      "bare_sentinel": 1
+    },
+    "v19/pr3|U768": {
+      "population": 528,
+      "S4": 2,
+      "bare_sentinel": 1,
+      "S1": 1
+    }
+  },
+  "totals": {
+    "population": 4260,
+    "S1": 39,
+    "S4": 160,
+    "bare_sentinel": 120
+  },
+  "hits": [
+    {
+      "population": "v19/main_A",
+      "arm": "U768",
+      "id": "A-042-ridge-broker::mh",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"the Ridge broker reached general availability in release v5.1.4,\" but the NGT algorithm statement is not attributed to a system associated with version v5.1.4 \u2014 it is stated independently (\"This system uses the NGT algorithm for approximate nearest-neighbor search\"), with no explicit link between the two."
+    },
+    {
+      "population": "v19/main_A",
+      "arm": "U256",
+      "id": "A-042-ridge-broker::mh",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not associate version v5.1.4 with a vector-search system's algorithm \u2014 v5.1.4 is mentioned as the release version for the Ridge broker, not the NGT algorithm system."
+    },
+    {
+      "population": "v19/main_A",
+      "arm": "U768",
+      "id": "A-011-falcon-sharder::syn",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_A",
+      "arm": "U768",
+      "id": "A-012-ridge-indexer::f6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_A",
+      "arm": "F768",
+      "id": "A-005-onyx-planner::f5",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1906.00790::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "F768",
+      "id": "1902.09666::q6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1902.09666::q6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1902.09666::q6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1910.06592::q6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1601.02403::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "F768",
+      "id": "1808.10245::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1808.10245::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1808.10245::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "2002.11910::q2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "2002.01320::q6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "F768",
+      "id": "1601.02403::q5",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1904.10503::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "2004.04721::q3",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "2004.04721::q3",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1605.03481::q1",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "**NOT FOUND**"
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1610.09225::q2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1912.01772::q1",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1707.05236::q4",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1811.00147::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U256",
+      "id": "1811.00383::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1810.08699::q2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "F768",
+      "id": "1801.02073::q1",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/main_B",
+      "arm": "U768",
+      "id": "1503.00841::q2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/pr3",
+      "arm": "F768",
+      "id": "A-005-onyx-planner::f5#r1",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\n(The context states \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this is attributed to \"the system,\" not explicitly to \"the Onyx planner.\")"
+    },
+    {
+      "population": "v19/pr3",
+      "arm": "U768",
+      "id": "A-008-quartz-resolver::f7#r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/pr3",
+      "arm": "F768",
+      "id": "A-038-quartz-scheduler::mh#r2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/pr3",
+      "arm": "U768",
+      "id": "A-044-aster-ledger::f5#r1",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\n(The context states \"This component listens for gRPC traffic on port 7000 by default,\" but does not specifically attribute this to the Aster ledger.)"
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-003-ember-scheduler::mh",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-010-marlin-collator::f6",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-020-drift-resolver::syn",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-024-ion-indexer::f4",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-037-vega-router::f4",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-A",
+      "arm": "mismatched",
+      "id": "A-039-zephyr-gateway::mh",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1612.08205::q3",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1806.05504::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1810.08699::q0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1908.05828::q10",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1908.10084::q4",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "1909.03405::q2",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v19/control-B",
+      "arm": "mismatched",
+      "id": "2002.01320::q1",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q097-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q037-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q155-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q030-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q127-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q100-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q142-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q058-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q148-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q112-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q080-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q164-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q160-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q047-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q175-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q054-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q066-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q141-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q101-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q095-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q013-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q137-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q109-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q039-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q009-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q105-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q050-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q107-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q029-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q077-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q171-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q142-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q088-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q044-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q030-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q170-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q124-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q018-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q032-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q165-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q077-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q135-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q122-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q104-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q074-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q022-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q136-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q003-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q139-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q043-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q159-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q081-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q140-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q103-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q068-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q093-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q045-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q025-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q072-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q172-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q112-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q064-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q059-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q154-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q065-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q155-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q002-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q122-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q136-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q104-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q066-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q011-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "u768",
+      "id": "v111-ea-u768-q056-sdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ea",
+      "arm": "f768",
+      "id": "v111-ea-f768-q069-xdoc-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q061-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational aspects and capabilities of the Basalt resolver (such as its file format, query performance, license, and algorithm), but does not discuss configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "f768",
+      "id": "v111-eb-f768-q049-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe provided context does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational processes and components that interact with the Falcon sharder, but does not specify its configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q145-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Solstice cache. The context describes various operational and deployment aspects of the Solstice cache system, but does not provide details about its configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q118-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not provide a summary of key configuration defaults. While it mentions that \"The Mica gateway listens for gRPC traffic on port 7000 by default,\" this is only a single default setting and does not constitute a comprehensive summary of key configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q108-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"The system reached general availability in release v3.5.0,\" but this refers to the system as a whole, not specifically to the Cobalt router. There is no information provided about when the Cobalt router specifically reached general availability."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q049-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context provided does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational components and their functions within the system, but does not specify any configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q017-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe provided context does not contain information about the key configuration defaults of the Aster ledger. The context describes various system components and their operational functions, but does not discuss configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q134-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context states \"This component is distributed under the BSD-3-Clause license.\" However, it does not explicitly specify that this refers to the Kestrel broker. Based on the context provided, I cannot definitively quote that the Kestrel broker specifically is distributed under the BSD-3-Clause license.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q063-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context provides specific operational details about various components and processes related to the Ridge indexer, but it does not contain a summary of key configuration defaults. The only default mentioned is that \"This system listens for gRPC traffic on port 8081 by default,\" but this alone does not constitute a comprehensive summary of key configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q024-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"this component applies a default request timeout of 350 milliseconds,\" but this refers to an unspecified component, not specifically the Vega broker."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q168-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context provides specific technical details about the Ion indexer, but does not contain a summary of its key configuration defaults. The only configuration-related information provided is: \"The Ion indexer applies a default request timeout of 750 milliseconds.\""
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q106-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "f768",
+      "id": "v111-eb-f768-q145-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Solstice cache. The context describes various operations and management tasks performed by different components that interact with the Solstice cache, but does not specify configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "f768",
+      "id": "v111-eb-f768-q137-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe provided context does not contain information about key configuration defaults of the Krait router. The context only mentions that \"The Krait router listens for gRPC traffic on port 8443 by default,\" which is a single default setting, but does not provide a summary of key configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q102-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"The system persists its index to disk in the Parquet file format,\" but this refers to \"the system\" in general, not specifically to the Onyx planner."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q059-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"This component persists its index to disk in the Avro file format,\" but this refers to an unspecified component, not specifically the Halcyon cache. While the Halcyon cache is mentioned in the context, there is no explicit statement about the file format in which it persists its index to disk."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q174-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context mentions that \"The Verde compactor reached general availability in release v1.7.2,\" but it does not specify that the Verde compactor uses a CLOCK-Pro cache policy. Therefore, I cannot confirm that the system described in the question matches the information provided in the context."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q132-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not specify that any system has a throughput of 18000, nor does it link such a throughput specification to a particular vector-search system. While the context does state \"The system persists its index to disk in the ORC file format,\" it is unclear if this refers to the system with the throughput of 18000 you're asking about."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q169-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"This system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that the Ridge broker uses this algorithm. The statement refers to \"this system\" in general, not specifically to the Ridge broker."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q117-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Falcon compactor. The context describes various operational aspects and capabilities of the Falcon compactor (such as its use of the NGT algorithm, ARC replacement policy, Arrow file format, and performance metrics), but does not provide any details about configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "u768",
+      "id": "v111-eb-u768-q128-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"The system reached general availability in release v0.9.8,\" but this refers to the system in general, not specifically to the Quartz resolver."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "f768",
+      "id": "v111-eb-f768-q061-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context provided does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational behaviors and system interactions related to the Basalt resolver, but does not specify its configuration defaults."
+    },
+    {
+      "population": "v111/eb",
+      "arm": "f768",
+      "id": "v111-eb-f768-q132-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context mentions that \"The Quartz scheduler persists its index to disk in the ORC file format,\" but there is no information provided about a vector-search system with throughput of 18000 or any connection between such a system and a file format."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q172-v1-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context does not specify that the Aster ledger listens for gRPC traffic on a specific port. The statement about listening for gRPC traffic on port 7000 refers to \"this component,\" not explicitly the Aster ledger.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q144-v1-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context does not establish that port 6565 belongs to the Cobalt ledger specifically as a \"vector-search system\" tied to that port. While the Cobalt ledger evicts hot vectors using a 2Q replacement policy, and a separate system listens on port 6565, the context does not link these two facts together."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q134-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q038-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q080-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "f768",
+      "id": "v111-ec-f768-q132-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q166-v1-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context states \"this system is distributed under the BSD-3-Clause license,\" but this refers to the system generally, not specifically to the Quartz scheduler. The Quartz scheduler's license is not explicitly stated.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q169-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v1",
+      "arm": "u768",
+      "id": "v111-ec-u768-q037-v1-r0",
+      "screens": [
+        "S4"
+      ],
+      "bare_sentinel": true,
+      "text": "NOT FOUND."
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q037-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"The system uses the NGT algorithm for approximate nearest-neighbor search,\" but this is not explicitly attributed to the Vega router. The Vega router is only mentioned in relation to reaching general availability in release v5.1.4."
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q169-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\nThe context states that \"this system uses the NGT algorithm for approximate nearest-neighbor search,\" but it does not specify that this refers to the Ridge broker specifically, so the answer cannot be confirmed from the given context."
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q038-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context states this system is distributed under the Apache-2.0 license. However, it does not specifically state the license under which the **Krait router** is distributed\u2014it only mentions that the Krait router reached general availability in release v5.1.4.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q128-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The system (not specifically the Quartz resolver) reached general availability in release **v0.9.8**. However, this statement refers to \"the system\" generally, not the Quartz resolver specifically.\n\n**NOT FOUND** \u2014 the context does not specify a release in which the Quartz resolver itself reached general availability."
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q166-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context states that **this system** is distributed under the BSD-3-Clause license, but it does not specifically state the license for the Quartz scheduler.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "u768",
+      "id": "v111-ec-u768-q134-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The context does not specify a license for the Kestrel broker specifically. It only states, \"This component is distributed under the BSD-3-Clause license,\" without naming the component.\n\nNOT FOUND"
+    },
+    {
+      "population": "v111/ec-v2",
+      "arm": "f768",
+      "id": "v111-ec-f768-q106-v2-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "The system uses the **Annoy algorithm** for approximate nearest-neighbor search.\n\nNote: this fact is attributed to \"the system\" in the context, not explicitly to \"the Onyx planner.\" If the question requires the answer to be specifically about the Onyx planner, the answer would be NOT FOUND, as the context does not explicitly state that the Onyx planner uses the Annoy algorithm."
+    },
+    {
+      "population": "v111/ee",
+      "arm": "c768",
+      "id": "v111-ee-c768-q166-frozen-r0",
+      "screens": [
+        "S1",
+        "S4"
+      ],
+      "bare_sentinel": false,
+      "text": "NOT FOUND\n\n(The context states \"this system is distributed under the BSD-3-Clause license,\" but the \"system\" referenced in that statement is the vector-search system described in the documentation chunk\u2014not explicitly stated to be the Quartz scheduler itself.)"
+    }
+  ]
+}

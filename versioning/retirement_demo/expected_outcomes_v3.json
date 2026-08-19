@@ -1,0 +1,413 @@
+{
+  "release": "v2 -> v3",
+  "hop": "single",
+  "targeted": true,
+  "targeting_rule": "first 3 probes in 3 distinct documents, store order",
+  "targets": [
+    {
+      "index": 0,
+      "query_id": "A-014-aster-router::syn",
+      "doc_id": "A-014-aster-router",
+      "span": [
+        986,
+        1048
+      ]
+    },
+    {
+      "index": 1,
+      "query_id": "A-030-kestrel-broker::syn",
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        835,
+        899
+      ]
+    },
+    {
+      "index": 2,
+      "query_id": "A-011-falcon-sharder::syn",
+      "doc_id": "A-011-falcon-sharder",
+      "span": [
+        1026,
+        1087
+      ]
+    }
+  ],
+  "targeting_walk": [
+    {
+      "index": 0,
+      "query_id": "A-014-aster-router::syn",
+      "doc_id": "A-014-aster-router",
+      "decision": "TARGET"
+    },
+    {
+      "index": 1,
+      "query_id": "A-030-kestrel-broker::syn",
+      "doc_id": "A-030-kestrel-broker",
+      "decision": "TARGET"
+    },
+    {
+      "index": 2,
+      "query_id": "A-011-falcon-sharder::syn",
+      "doc_id": "A-011-falcon-sharder",
+      "decision": "TARGET"
+    }
+  ],
+  "benign": [
+    {
+      "query_id": "A-001-basalt-cache::f7",
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        8750,
+        8831
+      ],
+      "target_class": "E1"
+    },
+    {
+      "query_id": "A-018-verde-compactor::f3",
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        4383,
+        4453
+      ],
+      "target_class": "E2"
+    }
+  ],
+  "edits": [
+    {
+      "doc_id": "A-014-aster-router",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 1006,
+      "b": 1021,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 856,
+      "b": 871,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 1046,
+      "b": 1061,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "kind": "insert",
+      "target_class": "E1",
+      "a": 8749,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "kind": "delete",
+      "target_class": "E2",
+      "a": 19,
+      "b": 117,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    }
+  ],
+  "n_edited_documents": 5,
+  "n_documents": 45,
+  "spans_total": 30,
+  "spans_per_class": {
+    "E4": 3,
+    "E1": 1,
+    "E2": 4,
+    "E6": 21,
+    "E3": 1
+  },
+  "spans_per_outcome": {
+    "DISTURBED": 3,
+    "UNCHANGED": 27
+  },
+  "expected": [
+    {
+      "query_id": "A-014-aster-router::syn",
+      "doc_id": "A-014-aster-router",
+      "start": 986,
+      "end": 1048,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "query_id": "A-030-kestrel-broker::syn",
+      "doc_id": "A-030-kestrel-broker",
+      "start": 835,
+      "end": 899,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "query_id": "A-011-falcon-sharder::syn",
+      "doc_id": "A-011-falcon-sharder",
+      "start": 1026,
+      "end": 1087,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "query_id": "A-001-basalt-cache::f7",
+      "doc_id": "A-001-basalt-cache",
+      "start": 8750,
+      "end": 8831,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "query_id": "A-018-verde-compactor::f3",
+      "doc_id": "A-018-verde-compactor",
+      "start": 4383,
+      "end": 4453,
+      "outcome": "UNCHANGED",
+      "delta": -98,
+      "class": "E2"
+    },
+    {
+      "query_id": "A-040-marlin-planner::syn",
+      "doc_id": "A-040-marlin-planner",
+      "start": 956,
+      "end": 1025,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-025-juniper-cache::mh",
+      "doc_id": "A-025-juniper-cache",
+      "start": 7591,
+      "end": 7658,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-019-crag-broker::syn",
+      "doc_id": "A-019-crag-broker",
+      "start": 979,
+      "end": 1042,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-015-beacon-scheduler::f2",
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 3263,
+      "end": 3329,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-034-cirrus-sharder::syn",
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 1264,
+      "end": 1339,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-019-crag-broker::f4",
+      "doc_id": "A-019-crag-broker",
+      "start": 5257,
+      "end": 5310,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-001-basalt-cache::syn",
+      "doc_id": "A-001-basalt-cache",
+      "start": 1388,
+      "end": 1453,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "query_id": "A-036-halcyon-cache::f4",
+      "doc_id": "A-036-halcyon-cache",
+      "start": 5054,
+      "end": 5129,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-030-kestrel-broker::f4",
+      "doc_id": "A-030-kestrel-broker",
+      "start": 5324,
+      "end": 5397,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "query_id": "A-014-aster-router::f1",
+      "doc_id": "A-014-aster-router",
+      "start": 1973,
+      "end": 2040,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "query_id": "A-014-aster-router::f3",
+      "doc_id": "A-014-aster-router",
+      "start": 4011,
+      "end": 4083,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "query_id": "A-037-vega-router::f4",
+      "doc_id": "A-037-vega-router",
+      "start": 5470,
+      "end": 5544,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-026-krait-router::syn",
+      "doc_id": "A-026-krait-router",
+      "start": 1104,
+      "end": 1180,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-019-crag-broker::f3",
+      "doc_id": "A-019-crag-broker",
+      "start": 4367,
+      "end": 4437,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-010-marlin-collator::syn",
+      "doc_id": "A-010-marlin-collator",
+      "start": 1114,
+      "end": 1191,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-005-onyx-planner::syn",
+      "doc_id": "A-005-onyx-planner",
+      "start": 1123,
+      "end": 1170,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-035-onyx-indexer::f2",
+      "doc_id": "A-035-onyx-indexer",
+      "start": 2452,
+      "end": 2510,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-016-nimbus-gateway::f3",
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 4139,
+      "end": 4211,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-000-kestrel-indexer::f1",
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 1997,
+      "end": 2058,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-019-crag-broker::f5",
+      "doc_id": "A-019-crag-broker",
+      "start": 6562,
+      "end": 6643,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-002-cobalt-router::f0",
+      "doc_id": "A-002-cobalt-router",
+      "start": 1031,
+      "end": 1092,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-016-nimbus-gateway::syn",
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 897,
+      "end": 959,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-031-basalt-resolver::syn",
+      "doc_id": "A-031-basalt-resolver",
+      "start": 1076,
+      "end": 1147,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-021-fable-ledger::mh",
+      "doc_id": "A-021-fable-ledger",
+      "start": 1079,
+      "end": 1136,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "query_id": "A-034-cirrus-sharder::f3",
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 4546,
+      "end": 4614,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    }
+  ]
+}

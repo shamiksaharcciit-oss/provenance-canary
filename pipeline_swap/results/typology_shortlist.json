@@ -1,0 +1,454 @@
+[
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-014-aster-router::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain any information about an \"Aster router\" or its configuration defaults. The context only discusses the Ion indexer and various system components related to it."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-030-kestrel-broker::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Kestrel broker. The only details provided about the Kestrel broker are:\n\n1. \"The Kestrel broker evicts hot vectors using a LFU replacement policy.\"\n2. \"The Kestrel broker is distributed under the BSD-3-Clause license.\"\n3. \"The Kestrel broker sustains up to 125000 queries per second on a single node.\"\n\nThese statements describe specific capabilities and licensing, but not configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-030-kestrel-broker::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Halcyon compactor and its various operations, but does not contain any information about the Kestrel broker or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-011-falcon-sharder::syn",
+    "slot": "answer_bearing",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe provided context does not contain information about the key configuration defaults of the Falcon sharder. The context describes various operational and maintenance procedures performed by different components in relation to the Falcon sharder, but does not specify its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-011-falcon-sharder::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Falcon sharder. The context only mentions that \"The Falcon sharder reached general availability in release v0.9.8\" and \"The Falcon sharder evicts hot vectors using a LFU replacement policy.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-011-falcon-sharder::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided contains information about the Kestrel indexer, not the Falcon sharder. There is no information about the Falcon sharder or its configuration defaults in the given context."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-001-basalt-cache::f7",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about which algorithm the Basalt cache uses for approximate nearest-neighbor search. The context only mentions that \"The Basalt cache evicts hot vectors using a S3-FIFO replacement policy\" and that it \"sustains up to 18000 queries per second on a single node,\" but does not specify the approximate nearest-neighbor search algorithm."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-001-basalt-cache::f7",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about a \"Basalt cache\" or its algorithms. The context only mentions that \"The Kestrel broker uses the ScaNN algorithm for approximate nearest-neighbor search.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-018-verde-compactor::f3",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe provided context does not contain any information about the Verde compactor or the file format it uses to persist its index to disk."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-040-marlin-planner::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided contains information about the Glint collator and various system components, but does not contain any information about the Marlin planner or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-025-juniper-cache::mh",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context states that \"The Juniper cache applies a default request timeout of 1200 milliseconds,\" but it does not contain any information about which port it listens for gRPC traffic by default."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-025-juniper-cache::mh",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not mention any vector-search system with a timeout of 1200 milliseconds. While the context does state that \"The Zephyr ledger listens for gRPC traffic on port 9090 by default,\" it also specifies that \"The Zephyr ledger applies a default request timeout of 900 milliseconds,\" not 1200 milliseconds."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-019-crag-broker::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Solstice resolver and various system components, but does not contain any information about a \"Crag broker\" or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-015-beacon-scheduler::f2",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Crag broker and various system components, but does not contain any information about a \"Beacon scheduler\" or its default request timeout. The context does mention that \"The Crag broker applies a default request timeout of 350 milliseconds,\" but this refers to the Crag broker, not the Beacon scheduler."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-034-cirrus-sharder::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Cirrus sharder. The context only mentions that \"The Cirrus sharder persists its index to disk in the Protobuf file format\" and \"The Cirrus sharder uses the ScaNN algorithm for approximate nearest-neighbor search.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-034-cirrus-sharder::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Marlin planner and its various components, but does not contain any information about the Cirrus sharder or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-019-crag-broker::f4",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Talon planner and various system components, but does not contain any information about a \"Crag broker\" or its license."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-001-basalt-cache::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain any information about the Basalt cache or its configuration defaults. The context discusses the Aster router and various system components, but does not mention Basalt cache."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-036-halcyon-cache::f4",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain any information about a \"Halcyon cache.\" The context only mentions that \"The system sustains up to 67000 queries per second on a single node,\" referring to the Drift resolver, not a Halcyon cache."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-014-aster-router::f1",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Kestrel broker, not the Aster router. While the context states that \"The Kestrel broker persists its index to disk in the Arrow file format,\" there is no information about an Aster router or its file format."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-037-vega-router::f4",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about which algorithm the Vega router uses. The context only mentions that \"The system uses the Annoy algorithm for approximate nearest-neighbor search,\" but does not specify this is for the Vega router. The Krait router is mentioned in the context, but not the Vega router."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-026-krait-router::syn",
+    "slot": "answer_bearing",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about key configuration defaults of the Krait router. The only specific default mentioned is that \"The Krait router listens for gRPC traffic on port 8443 by default.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-026-krait-router::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Krait router. The context only states that \"The Krait router is distributed under the Apache-2.0 license\" and then describes various system components and their functions, but does not detail any configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-026-krait-router::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Crag broker, not the Krait router. Therefore, I cannot answer the question about the Krait router's key configuration defaults based on the given context."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-019-crag-broker::f3",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Nimbus gateway and its various components, but does not contain any information about a \"Crag broker\" or its default request timeout."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-010-marlin-collator::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Marlin collator. The only information provided about the Marlin collator is: \"The Marlin collator evicts hot vectors using a S3-FIFO replacement policy\" and \"The Marlin collator reached general availability in release v4.0.0.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-010-marlin-collator::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain any information about the Marlin collator or its configuration defaults. The context discusses the Onyx planner and various system components, but makes no mention of a Marlin collator."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-005-onyx-planner::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe provided context does not contain any information about the Onyx planner or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-005-onyx-planner::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain information about an \"Onyx planner\" or its configuration defaults. The context discusses various system components like the Quartz resolver, deployment pipeline, health monitor, and other services, but does not mention an Onyx planner."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-035-onyx-indexer::f2",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain any information about an \"Onyx indexer\" or its license. The context only mentions that \"The Basalt cache is distributed under the Apache-2.0 license.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-000-kestrel-indexer::f1",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context mentions that \"The system listens for gRPC traffic on port 7000 by default,\" but it does not specify that this is the Kestrel indexer. The context does not contain information about a \"Kestrel indexer.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-019-crag-broker::f5",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not specify which algorithm the Crag broker uses for approximate nearest-neighbor search. While the context describes the Crag broker as \"a distributed vector-search broker,\" it does not mention the specific algorithm used for approximate nearest-neighbor search."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-019-crag-broker::f5",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Basalt cache but does not contain any information about a \"Crag broker\" or its algorithms for approximate nearest-neighbor search."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-016-nimbus-gateway::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not contain information about the key configuration defaults of the Nimbus gateway. The only mention of the Nimbus gateway states: \"The Nimbus gateway reached general availability in release v1.7.2.\""
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-016-nimbus-gateway::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Quartz scheduler and various operational components, but does not contain any information about the Nimbus gateway or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-031-basalt-resolver::syn",
+    "slot": "answer_bearing",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided does not contain information about key configuration defaults of the Basalt resolver. The context describes various operational and system management tasks performed by different components in relation to the Basalt resolver, but does not specify any configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-031-basalt-resolver::syn",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context only states that \"The Basalt resolver uses the HNSW algorithm for approximate nearest-neighbor search.\" It does not contain information about key configuration defaults of the Basalt resolver."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-031-basalt-resolver::syn",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided discusses the Zephyr ledger and its various components, but does not contain any information about a \"Basalt resolver\" or its configuration defaults."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-021-fable-ledger::mh",
+    "slot": "same_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context mentions that \"The Fable ledger evicts hot vectors using a ARC replacement policy,\" but it does not contain any information about the license under which the Fable ledger (or any vector-search system with ARC cache policy) is distributed."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-021-fable-ledger::mh",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S2",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context does not mention any vector-search system with an ARC cache policy. While the context does state that \"The Ridge broker is distributed under the AGPL-3.0 license,\" there is no information provided about Ridge broker's cache policy being ARC, so I cannot confirm this is the system being asked about."
+  },
+  {
+    "cycle": "cycle3_model_swap",
+    "query_id": "A-034-cirrus-sharder::f3",
+    "slot": "cross_doc",
+    "verdict": "ANSWER",
+    "screens": [
+      "S1",
+      "S4"
+    ],
+    "text": "NOT FOUND\n\nThe context provided contains information about the Cobalt ledger listening for gRPC traffic on port 6565 by default, but does not contain any information about a Cirrus sharder or which port it listens on."
+  }
+]

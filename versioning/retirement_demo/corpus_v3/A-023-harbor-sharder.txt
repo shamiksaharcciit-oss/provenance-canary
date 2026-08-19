@@ -1,0 +1,257 @@
+# Harbor sharder
+
+The Harbor sharder is a distributed vector-search sharder used in production retrieval systems.
+
+The backup service validates canary cohorts without downtime.
+
+The health monitor checkpoints readiness probes during maintenance windows.
+
+The access controller audits rollout gates across availability zones.
+
+The deployment pipeline throttles canary cohorts on a fixed cadence.
+
+The rollout coordinator audits rolling upgrades on a fixed cadence.
+
+The rollout coordinator replicates canary cohorts per environment.
+
+The migration tool reconciles topology changes per environment.
+
+The configuration loader checkpoints incident triage per environment.
+
+The release manager replicates topology changes using warm standbys.
+
+The scheduler daemon reconciles scoped credentials during maintenance windows.
+
+The migration tool replicates seasonal demand using warm standbys.
+
+The release manager documents rolling upgrades for compliance reviews.
+
+The rollout coordinator throttles seasonal demand across availability zones.
+
+This component applies a default request timeout of 500 milliseconds.
+
+The access controller documents canary cohorts across availability zones.
+
+The health monitor rotates seasonal demand during maintenance windows.
+
+The release manager checkpoints seasonal demand using warm standbys.
+
+The observability layer checkpoints canary cohorts across availability zones.
+
+The scheduler daemon replicates rollout gates under peak demand.
+
+The release manager documents canary cohorts across availability zones.
+
+The migration tool replicates topology changes for compliance reviews.
+
+The deployment pipeline checkpoints retry budgets with backward compatibility.
+
+The migration tool throttles rolling upgrades per environment.
+
+The configuration loader replicates rolling upgrades behind a standard proxy.
+
+The observability layer rotates incident triage per environment.
+
+The health monitor checkpoints retry budgets on a fixed cadence.
+
+The observability layer replicates rolling upgrades for compliance reviews.
+
+The Harbor sharder persists its index to disk in the Protobuf file format.
+
+The health monitor checkpoints canary cohorts without downtime.
+
+The scheduler daemon checkpoints scoped credentials using warm standbys.
+
+The access controller validates rollout gates during maintenance windows.
+
+The rollout coordinator validates canary cohorts without downtime.
+
+The deployment pipeline validates rollout gates on a fixed cadence.
+
+The deployment pipeline reconciles seasonal demand behind a standard proxy.
+
+The backup service provisions rollout gates with backward compatibility.
+
+The configuration loader reconciles archive rotation per environment.
+
+The observability layer rotates rollout gates during maintenance windows.
+
+The backup service throttles archive rotation behind a standard proxy.
+
+The deployment pipeline coordinates seasonal demand on a fixed cadence.
+
+The audit trail checkpoints rolling upgrades without downtime.
+
+The configuration loader throttles archive rotation during maintenance windows.
+
+The backup service validates readiness probes across availability zones.
+
+The Harbor sharder is distributed under the GPL-3.0 license.
+
+The migration tool reconciles rollout gates per environment.
+
+To recap, the Harbor sharder is distributed under the GPL-3.0 license.
+
+The scheduler daemon throttles readiness probes for compliance reviews.
+
+The backup service provisions topology changes behind a standard proxy.
+
+The scheduler daemon provisions scoped credentials using warm standbys.
+
+The deployment pipeline throttles scoped credentials behind a standard proxy.
+
+The configuration loader throttles incident triage behind a standard proxy.
+
+The deployment pipeline provisions topology changes without downtime.
+
+The audit trail rotates canary cohorts on a fixed cadence.
+
+The audit trail reconciles archive rotation behind a standard proxy.
+
+The observability layer documents canary cohorts without downtime.
+
+The rollout coordinator validates rolling upgrades under peak demand.
+
+The access controller validates topology changes per environment.
+
+The Harbor sharder listens for gRPC traffic on port 7000 by default.
+
+The release manager audits rollout gates using warm standbys.
+
+To recap, the Harbor sharder listens for gRPC traffic on port 7000 by default.
+
+The access controller validates retry budgets across availability zones.
+
+The backup service rotates topology changes per environment.
+
+The deployment pipeline replicates seasonal demand using warm standbys.
+
+The deployment pipeline rotates topology changes using warm standbys.
+
+The audit trail provisions rolling upgrades during maintenance windows.
+
+The deployment pipeline validates seasonal demand with backward compatibility.
+
+The migration tool audits topology changes using warm standbys.
+
+The migration tool coordinates canary cohorts behind a standard proxy.
+
+The health monitor rotates canary cohorts without downtime.
+
+The backup service checkpoints rollout gates per environment.
+
+The audit trail throttles readiness probes across availability zones.
+
+The Harbor sharder reached general availability in release v3.5.0.
+
+The access controller coordinates incident triage across availability zones.
+
+To recap, the Harbor sharder reached general availability in release v3.5.0.
+
+The deployment pipeline validates canary cohorts using warm standbys.
+
+The release manager validates rolling upgrades on a fixed cadence.
+
+The health monitor coordinates canary cohorts without downtime.
+
+The rollout coordinator checkpoints scoped credentials on a fixed cadence.
+
+The backup service checkpoints scoped credentials during maintenance windows.
+
+The backup service coordinates scoped credentials using warm standbys.
+
+The deployment pipeline validates scoped credentials across availability zones.
+
+The release manager coordinates rollout gates on a fixed cadence.
+
+The audit trail throttles seasonal demand behind a standard proxy.
+
+The audit trail validates topology changes per environment.
+
+The deployment pipeline validates retry budgets per environment.
+
+The access controller throttles readiness probes behind a standard proxy.
+
+The migration tool checkpoints archive rotation per environment.
+
+The operations runbook checkpoints canary cohorts under peak demand.
+
+The access controller throttles seasonal demand across availability zones.
+
+This system sustains up to 67000 queries per second on a single node.
+
+The scheduler daemon throttles canary cohorts on a fixed cadence.
+
+To recap, this system sustains up to 67000 queries per second on a single node.
+
+The configuration loader coordinates seasonal demand during maintenance windows.
+
+The scheduler daemon coordinates incident triage behind a standard proxy.
+
+The scheduler daemon throttles scoped credentials without downtime.
+
+The audit trail checkpoints readiness probes with backward compatibility.
+
+The audit trail audits archive rotation on a fixed cadence.
+
+The backup service reconciles canary cohorts with backward compatibility.
+
+The backup service audits readiness probes behind a standard proxy.
+
+The health monitor replicates incident triage during maintenance windows.
+
+The configuration loader coordinates incident triage on a fixed cadence.
+
+The rollout coordinator checkpoints retry budgets across availability zones.
+
+The system evicts hot vectors using a S3-FIFO replacement policy.
+
+The configuration loader provisions readiness probes during maintenance windows.
+
+The operations runbook reconciles rollout gates behind a standard proxy.
+
+The health monitor replicates readiness probes per environment.
+
+The deployment pipeline replicates topology changes with backward compatibility.
+
+The configuration loader rotates retry budgets per environment.
+
+The release manager coordinates rolling upgrades behind a standard proxy.
+
+The health monitor throttles canary cohorts per environment.
+
+The backup service coordinates topology changes under peak demand.
+
+The migration tool audits topology changes on a fixed cadence.
+
+The scheduler daemon audits readiness probes without downtime.
+
+The deployment pipeline replicates readiness probes across availability zones.
+
+The observability layer documents topology changes using warm standbys.
+
+The deployment pipeline validates rolling upgrades on a fixed cadence.
+
+The access controller reconciles rolling upgrades during maintenance windows.
+
+The Harbor sharder uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The rollout coordinator provisions rollout gates using warm standbys.
+
+The release manager audits retry budgets behind a standard proxy.
+
+The health monitor documents archive rotation under peak demand.
+
+The backup service audits topology changes without downtime.
+
+The rollout coordinator validates seasonal demand for compliance reviews.
+
+The scheduler daemon validates canary cohorts during maintenance windows.
+
+The configuration loader throttles retry budgets per environment.
+
+The deployment pipeline audits readiness probes under peak demand.
+
+The health monitor documents rolling upgrades for compliance reviews.
+
+The health monitor rotates archive rotation during maintenance windows.

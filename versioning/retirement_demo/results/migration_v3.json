@@ -1,0 +1,499 @@
+{
+  "release": "v2 -> v3",
+  "canary_frozen_at": "0257ebe",
+  "parent_build": "fa9e587",
+  "n_probes_in": 30,
+  "n_retired": 3,
+  "n_survivors": 27,
+  "migration_outcomes": {
+    "DISTURBED": 3,
+    "UNCHANGED": 27
+  },
+  "byte_identity_verified": 27,
+  "retirement_log": [
+    {
+      "query_id": "A-014-aster-router::syn",
+      "doc_id": "A-014-aster-router",
+      "span_v2": [
+        986,
+        1048
+      ],
+      "migrator_cause": "insert at v1[1006,1006)",
+      "intersecting_edit": {
+        "kind": "rewrite",
+        "class": "E4",
+        "a": 1006,
+        "b": 1021
+      },
+      "action": "RETIRED \u2014 flagged for re-registration, never silently carried"
+    },
+    {
+      "query_id": "A-030-kestrel-broker::syn",
+      "doc_id": "A-030-kestrel-broker",
+      "span_v2": [
+        835,
+        899
+      ],
+      "migrator_cause": "insert at v1[856,856)",
+      "intersecting_edit": {
+        "kind": "rewrite",
+        "class": "E4",
+        "a": 856,
+        "b": 871
+      },
+      "action": "RETIRED \u2014 flagged for re-registration, never silently carried"
+    },
+    {
+      "query_id": "A-011-falcon-sharder::syn",
+      "doc_id": "A-011-falcon-sharder",
+      "span_v2": [
+        1026,
+        1087
+      ],
+      "migrator_cause": "insert at v1[1046,1046)",
+      "intersecting_edit": {
+        "kind": "rewrite",
+        "class": "E4",
+        "a": 1046,
+        "b": 1061
+      },
+      "action": "RETIRED \u2014 flagged for re-registration, never silently carried"
+    }
+  ],
+  "census": {
+    "answerless_packages_checked": 54,
+    "gold_overlaps_found": 0,
+    "expected_checks": 54,
+    "_note": "re-executed against version 3 over survivors only"
+  },
+  "acceptance": {
+    "spans": 30,
+    "agreements": 30,
+    "disagreements": 0,
+    "disagreement_rows": [],
+    "rows": [
+      {
+        "query_id": "A-014-aster-router::syn",
+        "class": "E4",
+        "expected": {
+          "outcome": "DISTURBED",
+          "delta": null
+        },
+        "migrator": {
+          "outcome": "DISTURBED",
+          "delta": null,
+          "cause": "insert at v1[1006,1006)"
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-030-kestrel-broker::syn",
+        "class": "E4",
+        "expected": {
+          "outcome": "DISTURBED",
+          "delta": null
+        },
+        "migrator": {
+          "outcome": "DISTURBED",
+          "delta": null,
+          "cause": "insert at v1[856,856)"
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-011-falcon-sharder::syn",
+        "class": "E4",
+        "expected": {
+          "outcome": "DISTURBED",
+          "delta": null
+        },
+        "migrator": {
+          "outcome": "DISTURBED",
+          "delta": null,
+          "cause": "insert at v1[1046,1046)"
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-001-basalt-cache::f7",
+        "class": "E1",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 146
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 146,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-018-verde-compactor::f3",
+        "class": "E2",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": -98
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": -98,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-040-marlin-planner::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-025-juniper-cache::mh",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-019-crag-broker::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-015-beacon-scheduler::f2",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-034-cirrus-sharder::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-019-crag-broker::f4",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-001-basalt-cache::syn",
+        "class": "E3",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-036-halcyon-cache::f4",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-030-kestrel-broker::f4",
+        "class": "E2",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 29
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 29,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-014-aster-router::f1",
+        "class": "E2",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 29
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 29,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-014-aster-router::f3",
+        "class": "E2",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 29
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 29,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-037-vega-router::f4",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-026-krait-router::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-019-crag-broker::f3",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-010-marlin-collator::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-005-onyx-planner::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-035-onyx-indexer::f2",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-016-nimbus-gateway::f3",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-000-kestrel-indexer::f1",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-019-crag-broker::f5",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-002-cobalt-router::f0",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-016-nimbus-gateway::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-031-basalt-resolver::syn",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-021-fable-ledger::mh",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      },
+      {
+        "query_id": "A-034-cirrus-sharder::f3",
+        "class": "E6",
+        "expected": {
+          "outcome": "UNCHANGED",
+          "delta": 0
+        },
+        "migrator": {
+          "outcome": "UNCHANGED",
+          "delta": 0,
+          "cause": null
+        },
+        "agree": true
+      }
+    ]
+  },
+  "monitored_arm": "F768",
+  "size": 27
+}

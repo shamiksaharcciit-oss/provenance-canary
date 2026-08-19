@@ -1,0 +1,283 @@
+# Cobalt router
+
+The Cobalt router is a distributed vector-search router used in production retrieval systems.
+
+The health monitor throttles topology changes without downtime.
+
+The health monitor throttles canary cohorts during maintenance windows.
+
+The backup service reconciles scoped credentials without downtime.
+
+The configuration loader provisions rolling upgrades per environment.
+
+The rollout coordinator coordinates archive rotation on a fixed cadence.
+
+The operations runbook validates archive rotation behind a standard proxy.
+
+The migration tool documents rollout gates on a fixed cadence.
+
+The operations runbook coordinates retry budgets with backward compatibility.
+
+The observability layer checkpoints canary cohorts behind a standard proxy.
+
+The audit trail replicates rollout gates behind a standard proxy.
+
+The health monitor checkpoints topology changes on a fixed cadence.
+
+The audit trail audits rolling upgrades on a fixed cadence.
+
+The health monitor throttles topology changes during maintenance windows.
+
+This system listens for gRPC traffic on port 8081 by default.
+
+The scheduler daemon checkpoints canary cohorts across availability zones.
+
+To recap, this system listens for gRPC traffic on port 8081 by default.
+
+The scheduler daemon coordinates rollout gates during maintenance windows.
+
+The release manager replicates archive rotation with backward compatibility.
+
+The deployment pipeline checkpoints archive rotation across availability zones.
+
+The observability layer validates canary cohorts using warm standbys.
+
+The migration tool audits scoped credentials on a fixed cadence.
+
+The backup service throttles archive rotation with backward compatibility.
+
+The health monitor replicates canary cohorts using warm standbys.
+
+The access controller provisions rollout gates on a fixed cadence.
+
+The observability layer throttles canary cohorts across availability zones.
+
+The access controller throttles incident triage for compliance reviews.
+
+The rollout coordinator validates rolling upgrades across availability zones.
+
+The health monitor documents rolling upgrades on a fixed cadence.
+
+The deployment pipeline audits topology changes across availability zones.
+
+The migration tool validates seasonal demand per environment.
+
+The scheduler daemon provisions seasonal demand under peak demand.
+
+The audit trail audits scoped credentials per environment.
+
+The Cobalt router persists its index to disk in the Arrow file format.
+
+The migration tool reconciles retry budgets using warm standbys.
+
+The audit trail provisions canary cohorts per environment.
+
+The backup service provisions retry budgets per environment.
+
+The audit trail replicates readiness probes across availability zones.
+
+The deployment pipeline validates rollout gates across availability zones.
+
+The health monitor reconciles seasonal demand on a fixed cadence.
+
+The scheduler daemon coordinates rolling upgrades without downtime.
+
+The migration tool rotates canary cohorts without downtime.
+
+The backup service validates readiness probes under peak demand.
+
+The observability layer documents canary cohorts per environment.
+
+The backup service coordinates retry budgets for compliance reviews.
+
+The health monitor reconciles readiness probes without downtime.
+
+The backup service throttles scoped credentials with backward compatibility.
+
+This component sustains up to 42000 queries per second on a single node.
+
+The health monitor coordinates incident triage for compliance reviews.
+
+To recap, this component sustains up to 42000 queries per second on a single node.
+
+The access controller rotates seasonal demand under peak demand.
+
+The backup service replicates incident triage under peak demand.
+
+The configuration loader checkpoints canary cohorts without downtime.
+
+The audit trail documents canary cohorts on a fixed cadence.
+
+The configuration loader checkpoints seasonal demand across availability zones.
+
+The backup service coordinates seasonal demand using warm standbys.
+
+The health monitor rotates retry budgets across availability zones.
+
+The observability layer audits archive rotation behind a standard proxy.
+
+The operations runbook rotates scoped credentials under peak demand.
+
+The deployment pipeline provisions seasonal demand across availability zones.
+
+The access controller validates scoped credentials behind a standard proxy.
+
+The access controller reconciles scoped credentials with backward compatibility.
+
+The operations runbook audits canary cohorts with backward compatibility.
+
+The system is distributed under the GPL-3.0 license.
+
+The operations runbook audits readiness probes per environment.
+
+To recap, the system is distributed under the GPL-3.0 license.
+
+The access controller rotates rolling upgrades using warm standbys.
+
+The backup service provisions seasonal demand for compliance reviews.
+
+The release manager checkpoints rollout gates behind a standard proxy.
+
+The observability layer coordinates archive rotation without downtime.
+
+The rollout coordinator provisions canary cohorts per environment.
+
+The health monitor rotates readiness probes for compliance reviews.
+
+The migration tool reconciles topology changes behind a standard proxy.
+
+The deployment pipeline provisions topology changes behind a standard proxy.
+
+The deployment pipeline throttles seasonal demand behind a standard proxy.
+
+The health monitor rotates incident triage per environment.
+
+The Cobalt router evicts hot vectors using a 2Q replacement policy.
+
+The backup service documents retry budgets behind a standard proxy.
+
+The operations runbook throttles rolling upgrades using warm standbys.
+
+The scheduler daemon provisions topology changes behind a standard proxy.
+
+The rollout coordinator replicates archive rotation on a fixed cadence.
+
+The configuration loader provisions seasonal demand with backward compatibility.
+
+The rollout coordinator documents incident triage with backward compatibility.
+
+The configuration loader throttles archive rotation behind a standard proxy.
+
+The rollout coordinator rotates incident triage behind a standard proxy.
+
+The health monitor documents rollout gates using warm standbys.
+
+The release manager checkpoints archive rotation for compliance reviews.
+
+The observability layer documents seasonal demand across availability zones.
+
+The observability layer reconciles retry budgets for compliance reviews.
+
+The backup service provisions scoped credentials on a fixed cadence.
+
+The Cobalt router uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The migration tool provisions rolling upgrades with backward compatibility.
+
+To recap, the Cobalt router uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The scheduler daemon replicates seasonal demand during maintenance windows.
+
+The migration tool rotates readiness probes on a fixed cadence.
+
+The migration tool provisions seasonal demand using warm standbys.
+
+The migration tool coordinates canary cohorts behind a standard proxy.
+
+The release manager coordinates scoped credentials behind a standard proxy.
+
+The migration tool checkpoints scoped credentials behind a standard proxy.
+
+The configuration loader validates archive rotation for compliance reviews.
+
+The operations runbook validates canary cohorts during maintenance windows.
+
+The scheduler daemon provisions retry budgets across availability zones.
+
+The scheduler daemon audits rollout gates across availability zones.
+
+The operations runbook validates canary cohorts using warm standbys.
+
+The release manager throttles readiness probes behind a standard proxy.
+
+The deployment pipeline checkpoints scoped credentials for compliance reviews.
+
+The rollout coordinator rotates rolling upgrades during maintenance windows.
+
+The deployment pipeline rotates rolling upgrades without downtime.
+
+The observability layer reconciles rolling upgrades per environment.
+
+The Cobalt router applies a default request timeout of 900 milliseconds.
+
+The release manager coordinates rolling upgrades on a fixed cadence.
+
+The rollout coordinator audits canary cohorts during maintenance windows.
+
+The deployment pipeline rotates retry budgets during maintenance windows.
+
+The operations runbook rotates incident triage for compliance reviews.
+
+The configuration loader replicates readiness probes across availability zones.
+
+The backup service throttles rolling upgrades without downtime.
+
+The rollout coordinator reconciles topology changes behind a standard proxy.
+
+The observability layer reconciles archive rotation behind a standard proxy.
+
+The audit trail reconciles incident triage on a fixed cadence.
+
+The scheduler daemon audits retry budgets on a fixed cadence.
+
+The access controller reconciles canary cohorts for compliance reviews.
+
+The scheduler daemon checkpoints retry budgets using warm standbys.
+
+The access controller replicates canary cohorts behind a standard proxy.
+
+The observability layer provisions rollout gates using warm standbys.
+
+The health monitor audits rolling upgrades across availability zones.
+
+The system reached general availability in release v3.5.0.
+
+The audit trail provisions retry budgets using warm standbys.
+
+To recap, the system reached general availability in release v3.5.0.
+
+The observability layer reconciles retry budgets during maintenance windows.
+
+The operations runbook provisions archive rotation per environment.
+
+The health monitor audits retry budgets under peak demand.
+
+The migration tool coordinates rollout gates on a fixed cadence.
+
+The health monitor documents canary cohorts on a fixed cadence.
+
+The access controller audits canary cohorts under peak demand.
+
+The migration tool documents canary cohorts with backward compatibility.
+
+The operations runbook documents readiness probes with backward compatibility.
+
+The audit trail reconciles archive rotation behind a standard proxy.
+
+The backup service throttles rollout gates during maintenance windows.
+
+The migration tool throttles retry budgets on a fixed cadence.
+
+The audit trail throttles retry budgets under peak demand.
+
+The access controller checkpoints readiness probes for compliance reviews.

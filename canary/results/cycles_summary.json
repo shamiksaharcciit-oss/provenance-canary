@@ -1,0 +1,143 @@
+{
+  "cycles": [
+    {
+      "cycle": "cycle1_baseline",
+      "timestamp_utc": "2026-08-03T18:56:18Z",
+      "monitored_pipeline": "F768",
+      "model_requested": "claude-sonnet-5",
+      "model_served": [
+        "claude-sonnet-5"
+      ],
+      "n_probes": 30,
+      "counts": {
+        "wrong_abstention": 0,
+        "unsupported_answer": {
+          "same_doc": 11,
+          "cross_doc": 4
+        }
+      },
+      "rates": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 11,
+          "denominator": 30,
+          "rate": 0.366667
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 4,
+          "denominator": 30,
+          "rate": 0.133333
+        }
+      },
+      "cost": {
+        "llm_calls": 90,
+        "llm_tokens": 168992,
+        "input_tokens": 165353,
+        "output_tokens": 3639,
+        "cache_hits": 0,
+        "est_usd": 0.9177
+      },
+      "seconds": 322.2
+    },
+    {
+      "cycle": "cycle2_stability",
+      "timestamp_utc": "2026-08-03T19:00:24Z",
+      "monitored_pipeline": "F768",
+      "model_requested": "claude-sonnet-5",
+      "model_served": [
+        "claude-sonnet-5"
+      ],
+      "n_probes": 30,
+      "counts": {
+        "wrong_abstention": 0,
+        "unsupported_answer": {
+          "same_doc": 13,
+          "cross_doc": 3
+        }
+      },
+      "rates": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 13,
+          "denominator": 30,
+          "rate": 0.433333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 3,
+          "denominator": 30,
+          "rate": 0.1
+        }
+      },
+      "cost": {
+        "llm_calls": 90,
+        "llm_tokens": 169043,
+        "input_tokens": 165353,
+        "output_tokens": 3690,
+        "cache_hits": 0,
+        "est_usd": 0.919
+      },
+      "seconds": 245.0
+    },
+    {
+      "cycle": "cycle3_model_swap",
+      "timestamp_utc": "2026-08-03T19:02:20Z",
+      "monitored_pipeline": "F768",
+      "model_requested": "claude-haiku-4-5-20251001",
+      "model_served": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_probes": 30,
+      "counts": {
+        "wrong_abstention": 0,
+        "unsupported_answer": {
+          "same_doc": 16,
+          "cross_doc": 26
+        }
+      },
+      "rates": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 16,
+          "denominator": 30,
+          "rate": 0.533333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 26,
+          "denominator": 30,
+          "rate": 0.866667
+        }
+      },
+      "cost": {
+        "llm_calls": 90,
+        "llm_tokens": 103388,
+        "input_tokens": 98957,
+        "output_tokens": 4431,
+        "cache_hits": 0,
+        "est_usd": 0.6056
+      },
+      "seconds": 116.8
+    }
+  ],
+  "ledger_totals": {
+    "calls": 270,
+    "input_tokens": 429663,
+    "output_tokens": 11760,
+    "indeterminate_low": 0,
+    "indeterminate_high": 0,
+    "ceiling": 400,
+    "headroom_against_ceiling": 130,
+    "frozen_projection": null
+  }
+}

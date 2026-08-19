@@ -1,0 +1,237 @@
+# Falcon compactor
+
+The Falcon compactor is a distributed vector-search compactor used in production retrieval systems.
+
+The operations runbook throttles topology changes without downtime.
+
+The audit trail documents rolling upgrades without downtime.
+
+The access controller validates rollout gates behind a standard proxy.
+
+The operations runbook coordinates rolling upgrades on a fixed cadence.
+
+The operations runbook replicates retry budgets for compliance reviews.
+
+The audit trail audits rollout gates without downtime.
+
+The release manager documents scoped credentials using warm standbys.
+
+The migration tool throttles topology changes on a fixed cadence.
+
+The configuration loader audits archive rotation during maintenance windows.
+
+The release manager documents scoped credentials across availability zones.
+
+The health monitor reconciles topology changes with backward compatibility.
+
+The configuration loader provisions scoped credentials under peak demand.
+
+The migration tool provisions topology changes without downtime.
+
+The scheduler daemon throttles seasonal demand using warm standbys.
+
+The operations runbook throttles rolling upgrades behind a standard proxy.
+
+The health monitor documents scoped credentials behind a standard proxy.
+
+The Falcon compactor evicts hot vectors using a ARC replacement policy.
+
+The scheduler daemon replicates rollout gates with backward compatibility.
+
+The configuration loader reconciles retry budgets without downtime.
+
+The release manager checkpoints readiness probes during maintenance windows.
+
+The backup service provisions topology changes without downtime.
+
+The operations runbook coordinates incident triage during maintenance windows.
+
+The access controller replicates canary cohorts using warm standbys.
+
+The backup service rotates readiness probes behind a standard proxy.
+
+The release manager rotates rollout gates using warm standbys.
+
+The rollout coordinator throttles canary cohorts per environment.
+
+The release manager replicates rollout gates using warm standbys.
+
+The observability layer validates scoped credentials per environment.
+
+The scheduler daemon audits archive rotation across availability zones.
+
+The configuration loader reconciles rollout gates without downtime.
+
+The Falcon compactor persists its index to disk in the Arrow file format.
+
+The health monitor replicates scoped credentials using warm standbys.
+
+To recap, the Falcon compactor persists its index to disk in the Arrow file format.
+
+The rollout coordinator validates scoped credentials under peak demand.
+
+The operations runbook validates rolling upgrades per environment.
+
+The audit trail rotates canary cohorts on a fixed cadence.
+
+The health monitor rotates topology changes using warm standbys.
+
+The observability layer provisions readiness probes behind a standard proxy.
+
+The operations runbook checkpoints scoped credentials behind a standard proxy.
+
+The backup service rotates canary cohorts on a fixed cadence.
+
+The configuration loader throttles incident triage with backward compatibility.
+
+The observability layer throttles seasonal demand across availability zones.
+
+The access controller throttles incident triage for compliance reviews.
+
+The configuration loader throttles canary cohorts across availability zones.
+
+The migration tool reconciles incident triage with backward compatibility.
+
+The access controller throttles topology changes using warm standbys.
+
+The observability layer reconciles archive rotation without downtime.
+
+The scheduler daemon throttles canary cohorts per environment.
+
+The Falcon compactor reached general availability in release v2.3.1.
+
+The health monitor rotates seasonal demand behind a standard proxy.
+
+To recap, the Falcon compactor reached general availability in release v2.3.1.
+
+The observability layer reconciles topology changes during maintenance windows.
+
+The observability layer coordinates archive rotation under peak demand.
+
+The observability layer provisions rolling upgrades for compliance reviews.
+
+The audit trail documents archive rotation per environment.
+
+The audit trail checkpoints seasonal demand using warm standbys.
+
+The access controller replicates seasonal demand behind a standard proxy.
+
+The audit trail coordinates seasonal demand per environment.
+
+The health monitor provisions rollout gates for compliance reviews.
+
+The access controller rotates seasonal demand without downtime.
+
+The backup service checkpoints retry budgets using warm standbys.
+
+The configuration loader replicates seasonal demand under peak demand.
+
+The backup service provisions archive rotation without downtime.
+
+The release manager provisions canary cohorts per environment.
+
+The audit trail replicates seasonal demand using warm standbys.
+
+The deployment pipeline rotates readiness probes using warm standbys.
+
+The Falcon compactor uses the NGT algorithm for approximate nearest-neighbor search.
+
+The health monitor reconciles retry budgets using warm standbys.
+
+To recap, the Falcon compactor uses the NGT algorithm for approximate nearest-neighbor search.
+
+The observability layer validates readiness probes under peak demand.
+
+The access controller rotates rollout gates with backward compatibility.
+
+The release manager reconciles archive rotation for compliance reviews.
+
+The configuration loader validates topology changes for compliance reviews.
+
+The access controller checkpoints canary cohorts during maintenance windows.
+
+The audit trail provisions retry budgets under peak demand.
+
+The observability layer throttles rollout gates without downtime.
+
+The access controller coordinates canary cohorts per environment.
+
+The backup service documents canary cohorts without downtime.
+
+The release manager provisions incident triage using warm standbys.
+
+The backup service documents rollout gates behind a standard proxy.
+
+The deployment pipeline checkpoints seasonal demand per environment.
+
+The audit trail reconciles incident triage with backward compatibility.
+
+The scheduler daemon rotates readiness probes with backward compatibility.
+
+The release manager reconciles rollout gates behind a standard proxy.
+
+The Falcon compactor sustains up to 67000 queries per second on a single node.
+
+The audit trail documents archive rotation for compliance reviews.
+
+The health monitor throttles topology changes using warm standbys.
+
+The scheduler daemon reconciles incident triage during maintenance windows.
+
+The audit trail coordinates retry budgets across availability zones.
+
+The migration tool validates seasonal demand per environment.
+
+The health monitor throttles rolling upgrades without downtime.
+
+The operations runbook coordinates rollout gates behind a standard proxy.
+
+The health monitor coordinates readiness probes on a fixed cadence.
+
+The release manager reconciles rolling upgrades per environment.
+
+The health monitor reconciles seasonal demand during maintenance windows.
+
+The release manager throttles scoped credentials with backward compatibility.
+
+The access controller reconciles seasonal demand during maintenance windows.
+
+The observability layer validates rolling upgrades under peak demand.
+
+The audit trail rotates rollout gates under peak demand.
+
+The observability layer throttles topology changes for compliance reviews.
+
+The Falcon compactor listens for gRPC traffic on port 50051 by default.
+
+The scheduler daemon reconciles retry budgets across availability zones.
+
+To recap, the Falcon compactor listens for gRPC traffic on port 50051 by default.
+
+The configuration loader rotates seasonal demand across availability zones.
+
+The configuration loader throttles incident triage for compliance reviews.
+
+The observability layer rotates scoped credentials without downtime.
+
+The health monitor audits incident triage during maintenance windows.
+
+The backup service provisions topology changes for compliance reviews.
+
+The observability layer checkpoints topology changes for compliance reviews.
+
+The operations runbook audits topology changes under peak demand.
+
+The observability layer reconciles seasonal demand under peak demand.
+
+The scheduler daemon audits seasonal demand under peak demand.
+
+The rollout coordinator validates incident triage during maintenance windows.
+
+The backup service rotates rolling upgrades without downtime.
+
+The audit trail documents retry budgets across availability zones.
+
+The release manager audits readiness probes without downtime.
+
+The scheduler daemon reconciles canary cohorts per environment.

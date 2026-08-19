@@ -1,0 +1,452 @@
+{
+  "classifier": "classifier-v2",
+  "source": "frozen telemetry, read-only",
+  "_note": "additive correction; the frozen originals are unmodified and keep their v1 numbers as the record of what was published",
+  "cycles": [
+    {
+      "cycle": "cycle1_baseline",
+      "classifier": "classifier-v2",
+      "model_requested": "claude-sonnet-5",
+      "monitored_pipeline": "F768",
+      "rates_v2": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 9,
+          "denominator": 30,
+          "rate": 0.3
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        }
+      },
+      "rates_v1_as_published": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 11,
+          "denominator": 30,
+          "rate": 0.366667
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 4,
+          "denominator": 30,
+          "rate": 0.133333
+        }
+      },
+      "n_flips": 6,
+      "flips": [
+        {
+          "query_id": "A-034-cirrus-sharder::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-030-kestrel-broker::f4",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-005-onyx-planner::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-000-kestrel-indexer::f1",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        }
+      ]
+    },
+    {
+      "cycle": "cycle2_stability",
+      "classifier": "classifier-v2",
+      "model_requested": "claude-sonnet-5",
+      "monitored_pipeline": "F768",
+      "rates_v2": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 9,
+          "denominator": 30,
+          "rate": 0.3
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        }
+      },
+      "rates_v1_as_published": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 13,
+          "denominator": 30,
+          "rate": 0.433333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 3,
+          "denominator": 30,
+          "rate": 0.1
+        }
+      },
+      "n_flips": 7,
+      "flips": [
+        {
+          "query_id": "A-001-basalt-cache::f7",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-025-juniper-cache::mh",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-030-kestrel-broker::f4",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-037-vega-router::f4",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f3",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-005-onyx-planner::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-021-fable-ledger::mh",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        }
+      ]
+    },
+    {
+      "cycle": "cycle3_model_swap",
+      "classifier": "classifier-v2",
+      "model_requested": "claude-haiku-4-5-20251001",
+      "monitored_pipeline": "F768",
+      "rates_v2": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 16,
+          "denominator": 30,
+          "rate": 0.533333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 26,
+          "denominator": 30,
+          "rate": 0.866667
+        }
+      },
+      "rates_v1_as_published": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 16,
+          "denominator": 30,
+          "rate": 0.533333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 26,
+          "denominator": 30,
+          "rate": 0.866667
+        }
+      },
+      "n_flips": 0,
+      "flips": []
+    },
+    {
+      "cycle": "cycle4_after_release",
+      "classifier": "classifier-v2",
+      "model_requested": "claude-sonnet-5",
+      "monitored_pipeline": "F768",
+      "rates_v2": {
+        "wrong_abstention": {
+          "numerator": 1,
+          "denominator": 30,
+          "rate": 0.033333
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 10,
+          "denominator": 30,
+          "rate": 0.333333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 0,
+          "denominator": 30,
+          "rate": 0.0
+        }
+      },
+      "rates_v1_as_published": {
+        "wrong_abstention": {
+          "numerator": 1,
+          "denominator": 30,
+          "rate": 0.033333
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 13,
+          "denominator": 30,
+          "rate": 0.433333
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 7,
+          "denominator": 30,
+          "rate": 0.233333
+        }
+      },
+      "n_flips": 10,
+      "flips": [
+        {
+          "query_id": "A-014-aster-router::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-030-kestrel-broker::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f4",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-001-basalt-cache::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-037-vega-router::f4",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-005-onyx-planner::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-016-nimbus-gateway::f3",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-031-basalt-resolver::syn",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        }
+      ]
+    },
+    {
+      "cycle": "cycle5_after_retirement",
+      "classifier": "classifier-v2",
+      "model_requested": "claude-sonnet-5",
+      "monitored_pipeline": "F768",
+      "rates_v2": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 27,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 7,
+          "denominator": 27,
+          "rate": 0.259259
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 0,
+          "denominator": 27,
+          "rate": 0.0
+        }
+      },
+      "rates_v1_as_published": {
+        "wrong_abstention": {
+          "numerator": 0,
+          "denominator": 27,
+          "rate": 0.0
+        },
+        "unsupported_answer_same_doc": {
+          "numerator": 11,
+          "denominator": 27,
+          "rate": 0.407407
+        },
+        "unsupported_answer_cross_doc": {
+          "numerator": 6,
+          "denominator": 27,
+          "rate": 0.222222
+        }
+      },
+      "n_flips": 10,
+      "flips": [
+        {
+          "query_id": "A-019-crag-broker::f4",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-036-halcyon-cache::f4",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-014-aster-router::f3",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-037-vega-router::f4",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f3",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-016-nimbus-gateway::f3",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-016-nimbus-gateway::f3",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "same_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-019-crag-broker::f5",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        },
+        {
+          "query_id": "A-021-fable-ledger::mh",
+          "slot": "cross_doc",
+          "v1": "ANSWER",
+          "v2": "REFUSAL",
+          "text": "NOT FOUND."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2555 @@
+{
+  "seed": 1337,
+  "n_documents": 45,
+  "n_edited": 15,
+  "n_untouched": 30,
+  "edits": [
+    {
+      "doc_id": "A-017-talon-planner",
+      "kind": "insert",
+      "target_class": "E1",
+      "a": 956,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "kind": "delete",
+      "target_class": "E2",
+      "a": 20,
+      "b": 119,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "kind": "insert",
+      "target_class": "E3",
+      "a": 9497,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 875,
+      "b": 890,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "kind": "relocate",
+      "target_class": "E5",
+      "a": 1066,
+      "b": 1127,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "kind": "insert",
+      "target_class": "E1",
+      "a": 1241,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "kind": "delete",
+      "target_class": "E2",
+      "a": 19,
+      "b": 116,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "kind": "insert",
+      "target_class": "E3",
+      "a": 7716,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 2060,
+      "b": 2075,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "kind": "relocate",
+      "target_class": "E5",
+      "a": 891,
+      "b": 953,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "kind": "insert",
+      "target_class": "E1",
+      "a": 1267,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "kind": "delete",
+      "target_class": "E2",
+      "a": 16,
+      "b": 109,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "kind": "insert",
+      "target_class": "E3",
+      "a": 8628,
+      "b": 0,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 146
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "kind": "rewrite",
+      "target_class": "E4",
+      "a": 1267,
+      "b": 1282,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 44
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "kind": "relocate",
+      "target_class": "E5",
+      "a": 833,
+      "b": 903,
+      "paste_at": 0,
+      "payload": "",
+      "payload_len": 0
+    }
+  ],
+  "walk_extensions": [],
+  "spans_total": 298,
+  "spans_per_class": {
+    "E6": 180,
+    "E1": 23,
+    "E3": 50,
+    "E2": 39,
+    "E4": 3,
+    "E5": 3
+  },
+  "coverage_ok": true,
+  "expected": [
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 963,
+      "end": 1037,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 1997,
+      "end": 2058,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 2130,
+      "end": 2201,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 3056,
+      "end": 3114,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 3181,
+      "end": 3249,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 4248,
+      "end": 4317,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 5331,
+      "end": 5392,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "start": 5463,
+      "end": 5534,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 1242,
+      "end": 1307,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 1379,
+      "end": 1454,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 2451,
+      "end": 2519,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 2592,
+      "end": 2670,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 3404,
+      "end": 3474,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "start": 8604,
+      "end": 8685,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 1031,
+      "end": 1092,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 1170,
+      "end": 1241,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 2389,
+      "end": 2459,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 3341,
+      "end": 3413,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 3487,
+      "end": 3569,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 4512,
+      "end": 4564,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 4631,
+      "end": 4693,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 7868,
+      "end": 7940,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 9021,
+      "end": 9079,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "start": 9144,
+      "end": 9212,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "start": 2572,
+      "end": 2641,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "start": 2716,
+      "end": 2795,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "start": 6243,
+      "end": 6310,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "start": 2380,
+      "end": 2452,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "start": 2528,
+      "end": 2610,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "start": 6152,
+      "end": 6227,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "start": 6294,
+      "end": 6379,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 1216,
+      "end": 1263,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 1338,
+      "end": 1395,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 2210,
+      "end": 2284,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 2354,
+      "end": 2438,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 3403,
+      "end": 3469,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 3537,
+      "end": 3613,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 5678,
+      "end": 5743,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 5821,
+      "end": 5896,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "start": 6683,
+      "end": 6759,
+      "outcome": "UNCHANGED",
+      "delta": -93,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "start": 1137,
+      "end": 1206,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "start": 2311,
+      "end": 2368,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "start": 2451,
+      "end": 2518,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "start": 3521,
+      "end": 3580,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "start": 3650,
+      "end": 3719,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "start": 2042,
+      "end": 2096,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "start": 2172,
+      "end": 2236,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "start": 5801,
+      "end": 5864,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "start": 8695,
+      "end": 8764,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "start": 8829,
+      "end": 8908,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 1068,
+      "end": 1125,
+      "outcome": "MOVED",
+      "delta": null,
+      "class": "E5"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 1986,
+      "end": 2052,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 3140,
+      "end": 3214,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 3289,
+      "end": 3373,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 5318,
+      "end": 5375,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 5451,
+      "end": 5518,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 6541,
+      "end": 6610,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 6682,
+      "end": 6761,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 7923,
+      "end": 8009,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 8089,
+      "end": 8185,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 9110,
+      "end": 9168,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "start": 9241,
+      "end": 9309,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 1122,
+      "end": 1199,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 1274,
+      "end": 1361,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 2380,
+      "end": 2441,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 2511,
+      "end": 2582,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 3591,
+      "end": 3656,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "start": 7422,
+      "end": 7487,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 1114,
+      "end": 1191,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 1269,
+      "end": 1356,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 2067,
+      "end": 2148,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 2221,
+      "end": 2312,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 3245,
+      "end": 3307,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 3391,
+      "end": 3463,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 4154,
+      "end": 4228,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 4301,
+      "end": 4385,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 6425,
+      "end": 6499,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 6576,
+      "end": 6660,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "start": 7388,
+      "end": 7447,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "start": 1026,
+      "end": 1087,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "start": 2080,
+      "end": 2134,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "start": 2202,
+      "end": 2266,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "start": 3334,
+      "end": 3417,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 901,
+      "end": 960,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 1890,
+      "end": 1965,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 2980,
+      "end": 3041,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 3120,
+      "end": 3191,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 4347,
+      "end": 4415,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 5281,
+      "end": 5346,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 5416,
+      "end": 5491,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "start": 7272,
+      "end": 7341,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "start": 1068,
+      "end": 1136,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "start": 1197,
+      "end": 1275,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "start": 2375,
+      "end": 2430,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "start": 3114,
+      "end": 3183,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 986,
+      "end": 1048,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 1973,
+      "end": 2040,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 2110,
+      "end": 2187,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 3055,
+      "end": 3112,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 4011,
+      "end": 4083,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 4152,
+      "end": 4234,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 5269,
+      "end": 5338,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 7609,
+      "end": 7670,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "start": 8439,
+      "end": 8519,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 1182,
+      "end": 1235,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 1308,
+      "end": 1371,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 2436,
+      "end": 2504,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 2574,
+      "end": 2652,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 3362,
+      "end": 3428,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 3504,
+      "end": 3580,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 4438,
+      "end": 4491,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "start": 4565,
+      "end": 4628,
+      "outcome": "UNCHANGED",
+      "delta": -99,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 897,
+      "end": 959,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 1802,
+      "end": 1888,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 1967,
+      "end": 2063,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 3010,
+      "end": 3078,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 3150,
+      "end": 3228,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 4139,
+      "end": 4211,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "start": 4276,
+      "end": 4358,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 957,
+      "end": 1026,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 1097,
+      "end": 1176,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 1945,
+      "end": 2012,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 2872,
+      "end": 2940,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 3005,
+      "end": 3083,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 4006,
+      "end": 4078,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "start": 4144,
+      "end": 4226,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 850,
+      "end": 926,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 1000,
+      "end": 1086,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 1926,
+      "end": 1996,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 2067,
+      "end": 2147,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 3093,
+      "end": 3163,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 3244,
+      "end": 3324,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 4354,
+      "end": 4424,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 4494,
+      "end": 4574,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 5426,
+      "end": 5493,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "start": 6281,
+      "end": 6366,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 979,
+      "end": 1042,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 2119,
+      "end": 2191,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 2266,
+      "end": 2348,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 3435,
+      "end": 3506,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 3573,
+      "end": 3654,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 4367,
+      "end": 4437,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 5257,
+      "end": 5310,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 5382,
+      "end": 5445,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 6562,
+      "end": 6643,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "start": 7623,
+      "end": 7690,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "start": 1115,
+      "end": 1188,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "start": 2057,
+      "end": 2119,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "start": 3106,
+      "end": 3156,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "start": 4914,
+      "end": 4999,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "start": 1079,
+      "end": 1136,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "start": 2261,
+      "end": 2313,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "start": 2395,
+      "end": 2457,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "start": 3261,
+      "end": 3330,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "start": 3411,
+      "end": 3490,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 1118,
+      "end": 1187,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 1270,
+      "end": 1349,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 2058,
+      "end": 2115,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 2194,
+      "end": 2261,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 3313,
+      "end": 3381,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 4318,
+      "end": 4376,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "start": 4450,
+      "end": 4518,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 1037,
+      "end": 1106,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 2047,
+      "end": 2121,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 3135,
+      "end": 3195,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 3259,
+      "end": 3329,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 5091,
+      "end": 5157,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "start": 5237,
+      "end": 5313,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 961,
+      "end": 1024,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 1095,
+      "end": 1168,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 2335,
+      "end": 2405,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 3200,
+      "end": 3258,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 3329,
+      "end": 3397,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 4313,
+      "end": 4391,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 4467,
+      "end": 4555,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "start": 5415,
+      "end": 5489,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "start": 1268,
+      "end": 1333,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "start": 2246,
+      "end": 2324,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "start": 2391,
+      "end": 2479,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "start": 3232,
+      "end": 3305,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "start": 7591,
+      "end": 7658,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 1104,
+      "end": 1180,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 1257,
+      "end": 1343,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 2484,
+      "end": 2549,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 2616,
+      "end": 2691,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 3719,
+      "end": 3771,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 3850,
+      "end": 3912,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 4764,
+      "end": 4828,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 5531,
+      "end": 5587,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "start": 5668,
+      "end": 5734,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "start": 5958,
+      "end": 6030,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "start": 6114,
+      "end": 6196,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "start": 7892,
+      "end": 7956,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 1235,
+      "end": 1293,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 1375,
+      "end": 1443,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 2328,
+      "end": 2382,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 2455,
+      "end": 2519,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 3319,
+      "end": 3372,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 3447,
+      "end": 3510,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 5983,
+      "end": 6049,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 6113,
+      "end": 6189,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "start": 7846,
+      "end": 7913,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "start": 1250,
+      "end": 1302,
+      "outcome": "DISTURBED",
+      "delta": null,
+      "class": "E4"
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "start": 2149,
+      "end": 2229,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "start": 2301,
+      "end": 2391,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "start": 3396,
+      "end": 3459,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "start": 3546,
+      "end": 3619,
+      "outcome": "UNCHANGED",
+      "delta": 29,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 835,
+      "end": 899,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 980,
+      "end": 1054,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 1834,
+      "end": 1900,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 1974,
+      "end": 2050,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 2984,
+      "end": 3061,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 3141,
+      "end": 3228,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 4332,
+      "end": 4400,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 4469,
+      "end": 4547,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 5324,
+      "end": 5397,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 5465,
+      "end": 5548,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "start": 7648,
+      "end": 7709,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "start": 1173,
+      "end": 1244,
+      "outcome": "UNCHANGED",
+      "delta": -97,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "start": 1317,
+      "end": 1398,
+      "outcome": "UNCHANGED",
+      "delta": -97,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "start": 2466,
+      "end": 2542,
+      "outcome": "UNCHANGED",
+      "delta": -97,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "start": 3464,
+      "end": 3523,
+      "outcome": "UNCHANGED",
+      "delta": -97,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "start": 3586,
+      "end": 3655,
+      "outcome": "UNCHANGED",
+      "delta": -97,
+      "class": "E2"
+    },
+    {
+      "doc_id": "A-032-cobalt-ledger",
+      "start": 6482,
+      "end": 6549,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-032-cobalt-ledger",
+      "start": 6618,
+      "end": 6695,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-033-ember-collator",
+      "start": 5956,
+      "end": 6022,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 1264,
+      "end": 1339,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 1414,
+      "end": 1499,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 2520,
+      "end": 2589,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 2664,
+      "end": 2743,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 3478,
+      "end": 3547,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 4546,
+      "end": 4614,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "start": 6909,
+      "end": 6985,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 893,
+      "end": 951,
+      "outcome": "MOVED",
+      "delta": null,
+      "class": "E5"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 1665,
+      "end": 1745,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 2452,
+      "end": 2510,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 2576,
+      "end": 2644,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 5697,
+      "end": 5768,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "start": 5832,
+      "end": 5913,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 834,
+      "end": 900,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 971,
+      "end": 1047,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 2183,
+      "end": 2242,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 3018,
+      "end": 3075,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 3152,
+      "end": 3219,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 5054,
+      "end": 5129,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 5211,
+      "end": 5296,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 6187,
+      "end": 6253,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "start": 7065,
+      "end": 7124,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 967,
+      "end": 1036,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 2018,
+      "end": 2084,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 3107,
+      "end": 3163,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 3239,
+      "end": 3305,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 4371,
+      "end": 4434,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 4496,
+      "end": 4569,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "start": 5470,
+      "end": 5544,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 1836,
+      "end": 1906,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 4510,
+      "end": 4578,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 4655,
+      "end": 4733,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 5725,
+      "end": 5800,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 6578,
+      "end": 6639,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 7411,
+      "end": 7469,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "start": 7539,
+      "end": 7607,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "start": 2297,
+      "end": 2357,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "start": 2430,
+      "end": 2500,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "start": 3473,
+      "end": 3522,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "start": 956,
+      "end": 1025,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "start": 1095,
+      "end": 1174,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "start": 2258,
+      "end": 2334,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "start": 2406,
+      "end": 2492,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "start": 3431,
+      "end": 3500,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "start": 1256,
+      "end": 1327,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "start": 2249,
+      "end": 2322,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "start": 2395,
+      "end": 2478,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "start": 3560,
+      "end": 3628,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "start": 3699,
+      "end": 3777,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-042-ridge-broker",
+      "start": 6487,
+      "end": 6562,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-042-ridge-broker",
+      "start": 6632,
+      "end": 6717,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E6"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 835,
+      "end": 901,
+      "outcome": "MOVED",
+      "delta": null,
+      "class": "E5"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 975,
+      "end": 1051,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 2042,
+      "end": 2104,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 2169,
+      "end": 2241,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 3281,
+      "end": 3352,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 3429,
+      "end": 3510,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 4211,
+      "end": 4280,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 4354,
+      "end": 4433,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 5445,
+      "end": 5534,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 5606,
+      "end": 5705,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "start": 8556,
+      "end": 8635,
+      "outcome": "UNCHANGED",
+      "delta": 0,
+      "class": "E3"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 1268,
+      "end": 1351,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 1426,
+      "end": 1519,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 2595,
+      "end": 2653,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 3587,
+      "end": 3655,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 3731,
+      "end": 3809,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 4545,
+      "end": 4604,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 4676,
+      "end": 4745,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 7125,
+      "end": 7189,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 7262,
+      "end": 7336,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "start": 8184,
+      "end": 8239,
+      "outcome": "UNCHANGED",
+      "delta": 146,
+      "class": "E1"
+    }
+  ]
+}

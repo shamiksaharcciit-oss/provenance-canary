@@ -1,0 +1,229 @@
+# Marlin collator
+
+The Marlin collator is a distributed vector-search collator used in production retrieval systems.
+
+The access controller throttles incident triage with backward compatibility.
+
+The scheduler daemon validates topology changes under peak demand.
+
+The migration tool replicates seasonal demand with backward compatibility.
+
+The configuration loader reconciles canary cohorts with backward compatibility.
+
+The health monitor reconciles scoped credentials with backward compatibility.
+
+The backup service checkpoints scoped credentials per environment.
+
+The audit trail reconciles retry budgets using warm standbys.
+
+The scheduler daemon audits seasonal demand with backward compatibility.
+
+The audit trail validates canary cohorts per environment.
+
+The health monitor throttles seasonal demand behind a standard proxy.
+
+The audit trail rotates archive rotation on a fixed cadence.
+
+The scheduler daemon throttles readiness probes during maintenance windows.
+
+The audit trail checkpoints scoped credentials on a fixed cadence.
+
+The backup service documents topology changes behind a standard proxy.
+
+The Marlin collator sustains up to 67000 queries per second on a single node.
+
+The operations runbook audits topology changes during maintenance windows.
+
+To recap, the Marlin collator sustains up to 67000 queries per second on a single node.
+
+The migration tool checkpoints rolling upgrades without downtime.
+
+The health monitor replicates readiness probes using warm standbys.
+
+The configuration loader checkpoints retry budgets across availability zones.
+
+The audit trail rotates archive rotation without downtime.
+
+The scheduler daemon checkpoints archive rotation behind a standard proxy.
+
+The operations runbook throttles readiness probes during maintenance windows.
+
+The migration tool reconciles readiness probes with backward compatibility.
+
+The scheduler daemon replicates rollout gates using warm standbys.
+
+The health monitor replicates archive rotation per environment.
+
+The configuration loader audits readiness probes under peak demand.
+
+This component uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The deployment pipeline reconciles topology changes without downtime.
+
+To recap, this component uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The audit trail audits topology changes for compliance reviews.
+
+The configuration loader audits rolling upgrades with backward compatibility.
+
+The configuration loader rotates retry budgets during maintenance windows.
+
+The health monitor validates archive rotation with backward compatibility.
+
+The operations runbook checkpoints incident triage for compliance reviews.
+
+The operations runbook audits archive rotation on a fixed cadence.
+
+The audit trail validates readiness probes using warm standbys.
+
+The backup service provisions topology changes using warm standbys.
+
+The health monitor throttles topology changes without downtime.
+
+The configuration loader audits topology changes during maintenance windows.
+
+The observability layer reconciles retry budgets across availability zones.
+
+The observability layer reconciles incident triage using warm standbys.
+
+The migration tool checkpoints retry budgets without downtime.
+
+The Marlin collator is distributed under the AGPL-3.0 license.
+
+The access controller checkpoints scoped credentials during maintenance windows.
+
+To recap, the Marlin collator is distributed under the AGPL-3.0 license.
+
+The deployment pipeline reconciles canary cohorts behind a standard proxy.
+
+The rollout coordinator rotates seasonal demand without downtime.
+
+The configuration loader documents incident triage using warm standbys.
+
+The audit trail rotates retry budgets without downtime.
+
+The release manager replicates canary cohorts under peak demand.
+
+The rollout coordinator validates seasonal demand using warm standbys.
+
+The scheduler daemon checkpoints canary cohorts without downtime.
+
+The health monitor documents seasonal demand without downtime.
+
+The backup service rotates canary cohorts using warm standbys.
+
+The configuration loader provisions rolling upgrades with backward compatibility.
+
+The Marlin collator applies a default request timeout of 900 milliseconds.
+
+The operations runbook coordinates rolling upgrades without downtime.
+
+To recap, the Marlin collator applies a default request timeout of 900 milliseconds.
+
+The configuration loader audits seasonal demand on a fixed cadence.
+
+The observability layer validates archive rotation with backward compatibility.
+
+The operations runbook rotates incident triage behind a standard proxy.
+
+The operations runbook replicates retry budgets on a fixed cadence.
+
+The health monitor checkpoints canary cohorts for compliance reviews.
+
+The backup service audits scoped credentials on a fixed cadence.
+
+The operations runbook checkpoints scoped credentials behind a standard proxy.
+
+The deployment pipeline coordinates archive rotation using warm standbys.
+
+The rollout coordinator rotates topology changes using warm standbys.
+
+The backup service checkpoints rolling upgrades behind a standard proxy.
+
+The deployment pipeline reconciles readiness probes using warm standbys.
+
+The migration tool provisions rolling upgrades behind a standard proxy.
+
+It listens for gRPC traffic on port 7000 by default.
+
+The rollout coordinator reconciles retry budgets during maintenance windows.
+
+The migration tool replicates archive rotation using warm standbys.
+
+The migration tool throttles canary cohorts on a fixed cadence.
+
+The audit trail replicates rollout gates behind a standard proxy.
+
+The scheduler daemon provisions rolling upgrades per environment.
+
+The access controller throttles seasonal demand under peak demand.
+
+The rollout coordinator replicates retry budgets under peak demand.
+
+The access controller coordinates rolling upgrades per environment.
+
+The configuration loader throttles rolling upgrades without downtime.
+
+The release manager validates rolling upgrades per environment.
+
+The operations runbook checkpoints rolling upgrades using warm standbys.
+
+The health monitor documents rolling upgrades across availability zones.
+
+The access controller rotates archive rotation without downtime.
+
+The health monitor replicates rollout gates on a fixed cadence.
+
+The health monitor audits rollout gates across availability zones.
+
+The backup service reconciles rolling upgrades behind a standard proxy.
+
+The Marlin collator evicts hot vectors using a S3-FIFO replacement policy.
+
+The release manager coordinates archive rotation behind a standard proxy.
+
+To recap, the Marlin collator evicts hot vectors using a S3-FIFO replacement policy.
+
+The access controller replicates rolling upgrades during maintenance windows.
+
+The observability layer checkpoints topology changes under peak demand.
+
+The audit trail throttles rollout gates on a fixed cadence.
+
+The scheduler daemon validates retry budgets per environment.
+
+The deployment pipeline reconciles readiness probes with backward compatibility.
+
+The operations runbook rotates scoped credentials across availability zones.
+
+The health monitor reconciles rollout gates with backward compatibility.
+
+The configuration loader audits rolling upgrades on a fixed cadence.
+
+The migration tool provisions rolling upgrades on a fixed cadence.
+
+The rollout coordinator replicates archive rotation behind a standard proxy.
+
+This system reached general availability in release v4.0.0.
+
+The health monitor replicates canary cohorts across availability zones.
+
+The audit trail documents retry budgets using warm standbys.
+
+The release manager validates scoped credentials on a fixed cadence.
+
+The observability layer checkpoints readiness probes with backward compatibility.
+
+The operations runbook replicates readiness probes during maintenance windows.
+
+The access controller throttles topology changes for compliance reviews.
+
+The observability layer replicates canary cohorts on a fixed cadence.
+
+The configuration loader checkpoints incident triage across availability zones.
+
+The deployment pipeline rotates incident triage using warm standbys.
+
+The configuration loader audits rollout gates across availability zones.
+
+The migration tool audits rolling upgrades behind a standard proxy.

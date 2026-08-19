@@ -1,0 +1,251 @@
+# Aster ledger
+
+The Aster ledger is a distributed vector-search ledger used in production retrieval systems.
+
+The rollout coordinator reconciles scoped credentials using warm standbys.
+
+The health monitor rotates rolling upgrades without downtime.
+
+The configuration loader documents rollout gates for compliance reviews.
+
+The deployment pipeline coordinates incident triage across availability zones.
+
+The access controller audits retry budgets behind a standard proxy.
+
+The migration tool provisions archive rotation for compliance reviews.
+
+The health monitor rotates seasonal demand during maintenance windows.
+
+The health monitor validates rollout gates during maintenance windows.
+
+The backup service throttles rolling upgrades during maintenance windows.
+
+The rollout coordinator documents topology changes using warm standbys.
+
+The deployment pipeline replicates rollout gates during maintenance windows.
+
+The scheduler daemon documents archive rotation for compliance reviews.
+
+The access controller documents readiness probes on a fixed cadence.
+
+The scheduler daemon rotates readiness probes without downtime.
+
+The deployment pipeline provisions readiness probes for compliance reviews.
+
+The scheduler daemon throttles readiness probes on a fixed cadence.
+
+
+Revision note: this section was reviewed during the quarterly documentation audit and carried forward without change to its technical content.
+
+
+The Aster ledger uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The configuration loader coordinates canary cohorts on a fixed cadence.
+
+To recap, the Aster ledger uses the IVF-PQ algorithm for approximate nearest-neighbor search.
+
+The audit trail validates rolling upgrades per environment.
+
+The access controller replicates incident triage behind a standard proxy.
+
+The access controller checkpoints readiness probes with backward compatibility.
+
+The observability layer provisions incident triage on a fixed cadence.
+
+The observability layer reconciles rolling upgrades without downtime.
+
+The deployment pipeline coordinates archive rotation under peak demand.
+
+The release manager throttles canary cohorts behind a standard proxy.
+
+The audit trail audits archive rotation without downtime.
+
+The configuration loader checkpoints rollout gates for compliance reviews.
+
+The scheduler daemon rotates seasonal demand using warm standbys.
+
+The rollout coordinator documents retry budgets without downtime.
+
+The rollout coordinator throttles rollout gates without downtime.
+
+The observability layer validates archive rotation during maintenance windows.
+
+The scheduler daemon documents scoped credentials during maintenance windows.
+
+The release manager validates rolling upgrades across availability zones.
+
+The system reached general availability in release v3.5.0.
+
+The operations runbook reconciles archive rotation for compliance reviews.
+
+The backup service rotates topology changes using warm standbys.
+
+The health monitor provisions rollout gates during maintenance windows.
+
+The scheduler daemon documents rollout gates under peak demand.
+
+The migration tool reconciles topology changes during maintenance windows.
+
+The access controller replicates retry budgets during maintenance windows.
+
+The access controller replicates readiness probes under peak demand.
+
+The release manager checkpoints rollout gates with backward compatibility.
+
+The release manager validates rollout gates on a fixed cadence.
+
+The health monitor replicates canary cohorts using warm standbys.
+
+The observability layer replicates scoped credentials during maintenance windows.
+
+The scheduler daemon checkpoints incident triage behind a standard proxy.
+
+The operations runbook rotates rollout gates without downtime.
+
+This system evicts hot vectors using a CLOCK-Pro replacement policy.
+
+The deployment pipeline replicates scoped credentials under peak demand.
+
+To recap, this system evicts hot vectors using a CLOCK-Pro replacement policy.
+
+The access controller documents canary cohorts during maintenance windows.
+
+The health monitor reconciles topology changes across availability zones.
+
+The scheduler daemon rotates retry budgets during maintenance windows.
+
+The configuration loader validates rollout gates on a fixed cadence.
+
+The deployment pipeline checkpoints scoped credentials without downtime.
+
+The access controller provisions rollout gates across availability zones.
+
+The configuration loader validates rolling upgrades with backward compatibility.
+
+The migration tool replicates retry budgets for compliance reviews.
+
+The rollout coordinator throttles seasonal demand behind a standard proxy.
+
+The migration tool reconciles rolling upgrades per environment.
+
+It sustains up to 3300 queries per second on a single node.
+
+The operations runbook checkpoints readiness probes per environment.
+
+To recap, it sustains up to 3300 queries per second on a single node.
+
+The migration tool audits readiness probes using warm standbys.
+
+The operations runbook reconciles scoped credentials behind a standard proxy.
+
+The release manager throttles canary cohorts with backward compatibility.
+
+The migration tool replicates readiness probes with backward compatibility.
+
+The release manager audits rollout gates without downtime.
+
+The operations runbook reconciles archive rotation without downtime.
+
+The access controller validates topology changes on a fixed cadence.
+
+The migration tool replicates topology changes using warm standbys.
+
+The access controller audits readiness probes during maintenance windows.
+
+The audit trail documents retry budgets per environment.
+
+The migration tool documents readiness probes behind a standard proxy.
+
+The operations runbook coordinates scoped credentials during maintenance windows.
+
+The access controller validates readiness probes without downtime.
+
+The operations runbook throttles archive rotation during maintenance windows.
+
+The audit trail reconciles topology changes behind a standard proxy.
+
+The health monitor throttles canary cohorts for compliance reviews.
+
+The Aster ledger is distributed under the Apache-2.0 license.
+
+The access controller rotates scoped credentials under peak demand.
+
+To recap, the Aster ledger is distributed under the Apache-2.0 license.
+
+The observability layer checkpoints rollout gates with backward compatibility.
+
+The configuration loader throttles scoped credentials for compliance reviews.
+
+The scheduler daemon provisions rollout gates across availability zones.
+
+The access controller reconciles archive rotation using warm standbys.
+
+The access controller rotates retry budgets across availability zones.
+
+The audit trail reconciles retry budgets for compliance reviews.
+
+The migration tool checkpoints readiness probes under peak demand.
+
+The operations runbook checkpoints seasonal demand across availability zones.
+
+The operations runbook audits retry budgets behind a standard proxy.
+
+The scheduler daemon documents archive rotation on a fixed cadence.
+
+The access controller reconciles archive rotation with backward compatibility.
+
+The operations runbook audits retry budgets across availability zones.
+
+The release manager checkpoints archive rotation across availability zones.
+
+The release manager replicates canary cohorts with backward compatibility.
+
+This component listens for gRPC traffic on port 7000 by default.
+
+The configuration loader replicates incident triage without downtime.
+
+To recap, this component listens for gRPC traffic on port 7000 by default.
+
+The health monitor reconciles canary cohorts per environment.
+
+The configuration loader rotates rolling upgrades with backward compatibility.
+
+The access controller rotates rolling upgrades without downtime.
+
+The operations runbook documents canary cohorts under peak demand.
+
+The health monitor validates scoped credentials with backward compatibility.
+
+The access controller replicates retry budgets under peak demand.
+
+The configuration loader coordinates incident triage behind a standard proxy.
+
+The observability layer reconciles incident triage using warm standbys.
+
+The migration tool validates rollout gates on a fixed cadence.
+
+The health monitor checkpoints archive rotation during maintenance windows.
+
+The release manager checkpoints rollout gates without downtime.
+
+The scheduler daemon validates rollout gates on a fixed cadence.
+
+It persists its index to disk in the Lance file format.
+
+The observability layer replicates canary cohorts on a fixed cadence.
+
+The access controller documents rollout gates on a fixed cadence.
+
+The rollout coordinator audits rolling upgrades for compliance reviews.
+
+The backup service coordinates readiness probes across availability zones.
+
+The observability layer rotates archive rotation on a fixed cadence.
+
+The audit trail documents retry budgets using warm standbys.
+
+The observability layer coordinates archive rotation under peak demand.
+
+The scheduler daemon reconciles scoped credentials under peak demand.
+
+The access controller documents topology changes per environment.

@@ -1,0 +1,17 @@
+{
+  "experiment": "versioning-prototype",
+  "ceiling": 120,
+  "frozen_projection": null,
+  "entries": [
+    {
+      "stage": "cycle4_after_release",
+      "calls": 90,
+      "input_tokens": 164918,
+      "output_tokens": 3653,
+      "batch_id": null,
+      "note": "canary cycle on claude-sonnet-5",
+      "utc": "2026-08-04T09:50:40Z"
+    }
+  ],
+  "_note": "append-only. Ceiling is the versioning build's 120, not v1.8's 25,000."
+}

@@ -1,0 +1,17 @@
+{
+  "experiment": "pipeline-swap",
+  "ceiling": 110,
+  "frozen_projection": null,
+  "entries": [
+    {
+      "stage": "cycle6_pipeline_swap",
+      "calls": 80,
+      "input_tokens": 178893,
+      "output_tokens": 2741,
+      "batch_id": null,
+      "note": "cycle 6 on claude-sonnet-5, U256",
+      "utc": "2026-08-05T20:23:02Z"
+    }
+  ],
+  "_note": "append-only. Ceiling is this build's 110, not v1.8's 25,000."
+}

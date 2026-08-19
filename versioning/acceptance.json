@@ -1,0 +1,5395 @@
+{
+  "spans_checked": 298,
+  "agreements": 298,
+  "disagreements": 0,
+  "agreement_rate": 1.0,
+  "spans_per_class": {
+    "E6": 180,
+    "E1": 23,
+    "E3": 50,
+    "E2": 39,
+    "E4": 3,
+    "E5": 3
+  },
+  "agreements_per_class": {
+    "E1": 23,
+    "E2": 39,
+    "E3": 50,
+    "E4": 3,
+    "E5": 3,
+    "E6": 180
+  },
+  "migrator_outcomes": {
+    "UNCHANGED": 292,
+    "DISTURBED": 3,
+    "MOVED": 3
+  },
+  "verified_byte_identity": 295,
+  "disagreement_rows": [],
+  "rows": [
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        963,
+        1037
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        1997,
+        2058
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        2130,
+        2201
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        3056,
+        3114
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        3181,
+        3249
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        4248,
+        4317
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        5331,
+        5392
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-000-kestrel-indexer",
+      "span": [
+        5463,
+        5534
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        1242,
+        1307
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        1379,
+        1454
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        2451,
+        2519
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        2592,
+        2670
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        3404,
+        3474
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-001-basalt-cache",
+      "span": [
+        8604,
+        8685
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        1031,
+        1092
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        1170,
+        1241
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        2389,
+        2459
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        3341,
+        3413
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        3487,
+        3569
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        4512,
+        4564
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        4631,
+        4693
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        7868,
+        7940
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        9021,
+        9079
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-002-cobalt-router",
+      "span": [
+        9144,
+        9212
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "span": [
+        2572,
+        2641
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "span": [
+        2716,
+        2795
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-003-ember-scheduler",
+      "span": [
+        6243,
+        6310
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "span": [
+        2380,
+        2452
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "span": [
+        2528,
+        2610
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "span": [
+        6152,
+        6227
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-004-cirrus-gateway",
+      "span": [
+        6294,
+        6379
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        1216,
+        1263
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        1338,
+        1395
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        2210,
+        2284
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        2354,
+        2438
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        3403,
+        3469
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        3537,
+        3613
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        5678,
+        5743
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        5821,
+        5896
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-005-onyx-planner",
+      "span": [
+        6683,
+        6759
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -93
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -93,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "span": [
+        1137,
+        1206
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "span": [
+        2311,
+        2368
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "span": [
+        2451,
+        2518
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "span": [
+        3521,
+        3580
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-006-halcyon-compactor",
+      "span": [
+        3650,
+        3719
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "span": [
+        2042,
+        2096
+      ],
+      "class": "E4",
+      "expected": {
+        "outcome": "DISTURBED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "DISTURBED",
+        "delta": null,
+        "cause": "insert at v1[2061,2061)"
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "span": [
+        2172,
+        2236
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "span": [
+        5801,
+        5864
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "span": [
+        8695,
+        8764
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-007-vega-broker",
+      "span": [
+        8829,
+        8908
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        1068,
+        1125
+      ],
+      "class": "E5",
+      "expected": {
+        "outcome": "MOVED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "MOVED",
+        "delta": -1066,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        1986,
+        2052
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        3140,
+        3214
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        3289,
+        3373
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        5318,
+        5375
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        5451,
+        5518
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        6541,
+        6610
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        6682,
+        6761
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        7923,
+        8009
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        8089,
+        8185
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        9110,
+        9168
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-008-quartz-resolver",
+      "span": [
+        9241,
+        9309
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        1122,
+        1199
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        1274,
+        1361
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        2380,
+        2441
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        2511,
+        2582
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        3591,
+        3656
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-009-zephyr-ledger",
+      "span": [
+        7422,
+        7487
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        1114,
+        1191
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        1269,
+        1356
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        2067,
+        2148
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        2221,
+        2312
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        3245,
+        3307
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        3391,
+        3463
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        4154,
+        4228
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        4301,
+        4385
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        6425,
+        6499
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        6576,
+        6660
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-010-marlin-collator",
+      "span": [
+        7388,
+        7447
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "span": [
+        1026,
+        1087
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "span": [
+        2080,
+        2134
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "span": [
+        2202,
+        2266
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-011-falcon-sharder",
+      "span": [
+        3334,
+        3417
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        901,
+        960
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        1890,
+        1965
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        2980,
+        3041
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        3120,
+        3191
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        4347,
+        4415
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        5281,
+        5346
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        5416,
+        5491
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-012-ridge-indexer",
+      "span": [
+        7272,
+        7341
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "span": [
+        1068,
+        1136
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "span": [
+        1197,
+        1275
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "span": [
+        2375,
+        2430
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-013-solstice-cache",
+      "span": [
+        3114,
+        3183
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        986,
+        1048
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        1973,
+        2040
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        2110,
+        2187
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        3055,
+        3112
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        4011,
+        4083
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        4152,
+        4234
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        5269,
+        5338
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        7609,
+        7670
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-014-aster-router",
+      "span": [
+        8439,
+        8519
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        1182,
+        1235
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        1308,
+        1371
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        2436,
+        2504
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        2574,
+        2652
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        3362,
+        3428
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        3504,
+        3580
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        4438,
+        4491
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-015-beacon-scheduler",
+      "span": [
+        4565,
+        4628
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -99
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -99,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        897,
+        959
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        1802,
+        1888
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        1967,
+        2063
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        3010,
+        3078
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        3150,
+        3228
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        4139,
+        4211
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-016-nimbus-gateway",
+      "span": [
+        4276,
+        4358
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        957,
+        1026
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        1097,
+        1176
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        1945,
+        2012
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        2872,
+        2940
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        3005,
+        3083
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        4006,
+        4078
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-017-talon-planner",
+      "span": [
+        4144,
+        4226
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        850,
+        926
+      ],
+      "class": "E4",
+      "expected": {
+        "outcome": "DISTURBED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "DISTURBED",
+        "delta": null,
+        "cause": "insert at v1[875,875)"
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        1000,
+        1086
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        1926,
+        1996
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        2067,
+        2147
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        3093,
+        3163
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        3244,
+        3324
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        4354,
+        4424
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        4494,
+        4574
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        5426,
+        5493
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-018-verde-compactor",
+      "span": [
+        6281,
+        6366
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        979,
+        1042
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        2119,
+        2191
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        2266,
+        2348
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        3435,
+        3506
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        3573,
+        3654
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        4367,
+        4437
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        5257,
+        5310
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        5382,
+        5445
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        6562,
+        6643
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-019-crag-broker",
+      "span": [
+        7623,
+        7690
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "span": [
+        1115,
+        1188
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "span": [
+        2057,
+        2119
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "span": [
+        3106,
+        3156
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-020-drift-resolver",
+      "span": [
+        4914,
+        4999
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "span": [
+        1079,
+        1136
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "span": [
+        2261,
+        2313
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "span": [
+        2395,
+        2457
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "span": [
+        3261,
+        3330
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-021-fable-ledger",
+      "span": [
+        3411,
+        3490
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        1118,
+        1187
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        1270,
+        1349
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        2058,
+        2115
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        2194,
+        2261
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        3313,
+        3381
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        4318,
+        4376
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-022-glint-collator",
+      "span": [
+        4450,
+        4518
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        1037,
+        1106
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        2047,
+        2121
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        3135,
+        3195
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        3259,
+        3329
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        5091,
+        5157
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-023-harbor-sharder",
+      "span": [
+        5237,
+        5313
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        961,
+        1024
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        1095,
+        1168
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        2335,
+        2405
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        3200,
+        3258
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        3329,
+        3397
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        4313,
+        4391
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        4467,
+        4555
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-024-ion-indexer",
+      "span": [
+        5415,
+        5489
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "span": [
+        1268,
+        1333
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "span": [
+        2246,
+        2324
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "span": [
+        2391,
+        2479
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "span": [
+        3232,
+        3305
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-025-juniper-cache",
+      "span": [
+        7591,
+        7658
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        1104,
+        1180
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        1257,
+        1343
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        2484,
+        2549
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        2616,
+        2691
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        3719,
+        3771
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        3850,
+        3912
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        4764,
+        4828
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        5531,
+        5587
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-026-krait-router",
+      "span": [
+        5668,
+        5734
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "span": [
+        5958,
+        6030
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "span": [
+        6114,
+        6196
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-027-lattice-scheduler",
+      "span": [
+        7892,
+        7956
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        1235,
+        1293
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        1375,
+        1443
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        2328,
+        2382
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        2455,
+        2519
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        3319,
+        3372
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        3447,
+        3510
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        5983,
+        6049
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        6113,
+        6189
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-028-mica-gateway",
+      "span": [
+        7846,
+        7913
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "span": [
+        1250,
+        1302
+      ],
+      "class": "E4",
+      "expected": {
+        "outcome": "DISTURBED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "DISTURBED",
+        "delta": null,
+        "cause": "replace at v1[1267,1269)"
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "span": [
+        2149,
+        2229
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "span": [
+        2301,
+        2391
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "span": [
+        3396,
+        3459
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-029-nyx-planner",
+      "span": [
+        3546,
+        3619
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 29
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 29,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        835,
+        899
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        980,
+        1054
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        1834,
+        1900
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        1974,
+        2050
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        2984,
+        3061
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        3141,
+        3228
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        4332,
+        4400
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        4469,
+        4547
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        5324,
+        5397
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        5465,
+        5548
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-030-kestrel-broker",
+      "span": [
+        7648,
+        7709
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "span": [
+        1173,
+        1244
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -97
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -97,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "span": [
+        1317,
+        1398
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -97
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -97,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "span": [
+        2466,
+        2542
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -97
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -97,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "span": [
+        3464,
+        3523
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -97
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -97,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-031-basalt-resolver",
+      "span": [
+        3586,
+        3655
+      ],
+      "class": "E2",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": -97
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": -97,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-032-cobalt-ledger",
+      "span": [
+        6482,
+        6549
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-032-cobalt-ledger",
+      "span": [
+        6618,
+        6695
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-033-ember-collator",
+      "span": [
+        5956,
+        6022
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        1264,
+        1339
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        1414,
+        1499
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        2520,
+        2589
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        2664,
+        2743
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        3478,
+        3547
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        4546,
+        4614
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-034-cirrus-sharder",
+      "span": [
+        6909,
+        6985
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        893,
+        951
+      ],
+      "class": "E5",
+      "expected": {
+        "outcome": "MOVED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "MOVED",
+        "delta": -891,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        1665,
+        1745
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        2452,
+        2510
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        2576,
+        2644
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        5697,
+        5768
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-035-onyx-indexer",
+      "span": [
+        5832,
+        5913
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        834,
+        900
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        971,
+        1047
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        2183,
+        2242
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        3018,
+        3075
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        3152,
+        3219
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        5054,
+        5129
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        5211,
+        5296
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        6187,
+        6253
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-036-halcyon-cache",
+      "span": [
+        7065,
+        7124
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        967,
+        1036
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        2018,
+        2084
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        3107,
+        3163
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        3239,
+        3305
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        4371,
+        4434
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        4496,
+        4569
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-037-vega-router",
+      "span": [
+        5470,
+        5544
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        1836,
+        1906
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        4510,
+        4578
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        4655,
+        4733
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        5725,
+        5800
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        6578,
+        6639
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        7411,
+        7469
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-038-quartz-scheduler",
+      "span": [
+        7539,
+        7607
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "span": [
+        2297,
+        2357
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "span": [
+        2430,
+        2500
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-039-zephyr-gateway",
+      "span": [
+        3473,
+        3522
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "span": [
+        956,
+        1025
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "span": [
+        1095,
+        1174
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "span": [
+        2258,
+        2334
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "span": [
+        2406,
+        2492
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-040-marlin-planner",
+      "span": [
+        3431,
+        3500
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "span": [
+        1256,
+        1327
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "span": [
+        2249,
+        2322
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "span": [
+        2395,
+        2478
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "span": [
+        3560,
+        3628
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-041-falcon-compactor",
+      "span": [
+        3699,
+        3777
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-042-ridge-broker",
+      "span": [
+        6487,
+        6562
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-042-ridge-broker",
+      "span": [
+        6632,
+        6717
+      ],
+      "class": "E6",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        835,
+        901
+      ],
+      "class": "E5",
+      "expected": {
+        "outcome": "MOVED",
+        "delta": null
+      },
+      "migrator": {
+        "outcome": "MOVED",
+        "delta": -833,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        975,
+        1051
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        2042,
+        2104
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        2169,
+        2241
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        3281,
+        3352
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        3429,
+        3510
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        4211,
+        4280
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        4354,
+        4433
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        5445,
+        5534
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        5606,
+        5705
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-043-solstice-resolver",
+      "span": [
+        8556,
+        8635
+      ],
+      "class": "E3",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 0
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 0,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        1268,
+        1351
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        1426,
+        1519
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        2595,
+        2653
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        3587,
+        3655
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        3731,
+        3809
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        4545,
+        4604
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        4676,
+        4745
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        7125,
+        7189
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        7262,
+        7336
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    },
+    {
+      "doc_id": "A-044-aster-ledger",
+      "span": [
+        8184,
+        8239
+      ],
+      "class": "E1",
+      "expected": {
+        "outcome": "UNCHANGED",
+        "delta": 146
+      },
+      "migrator": {
+        "outcome": "UNCHANGED",
+        "delta": 146,
+        "cause": null
+      },
+      "agree": true
+    }
+  ]
+}
